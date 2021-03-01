@@ -11,6 +11,8 @@
 #import "MidViewController.h"
 #import "PersonalViewController.h"
 #import "LaunchViewController.h"
+#import "KaoqinViewController.h"
+#import "TeacherLeaveViewController.h"
 @interface SceneDelegate ()
 
 @end
@@ -45,10 +47,28 @@
     [nav4.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:18], NSForegroundColorAttributeName:[UIColor whiteColor]}];
             
     nav1.navigationBarHidden = YES;
+    
+    KaoqinViewController* vc = [[KaoqinViewController alloc] init];
+    UINavigationController* countnav = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    TeacherLeaveViewController *teacherVC = [[TeacherLeaveViewController alloc] init];
+    UINavigationController* teachernav = [[UINavigationController alloc] initWithRootViewController:teacherVC];
+    
+    vc.title = @"我的记录单";
+    teacherVC.title = @"记录单";
+    teachernav.title = @"教师端";
+    countnav.title = @"学生端";
+    
+//    UITabBarController *tbController = [[UITabBarController alloc] init];
+//    tbController.tabBar.translucent = NO;
+//    NSArray *arrayVC = [NSArray arrayWithObjects:countnav, teachernav, nil];
+//    tbController.viewControllers = arrayVC;
+//    self.window.rootViewController = tbController;
+    
     //创建分栏控制器
     UITabBarController* tbController = [UITabBarController new];
     tbController.tabBar.barTintColor = [UIColor whiteColor];
-    NSArray* arrayVc = [NSArray arrayWithObjects: nav1, nav2, nav3, nav4, nil];
+    NSArray* arrayVc = [NSArray arrayWithObjects: nav1, nav2, nav3, nav4, countnav, teachernav, nil];
             
     tbController.viewControllers = arrayVc;
     self.window.rootViewController = tbController;
