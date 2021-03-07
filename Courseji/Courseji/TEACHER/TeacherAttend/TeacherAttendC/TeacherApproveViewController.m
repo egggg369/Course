@@ -18,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     _teacherApproveView = [[TeacherApproveView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     
     [_teacherApproveView.approveBtn addTarget:self action:@selector(down) forControlEvents:UIControlEventTouchUpInside];
