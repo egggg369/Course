@@ -17,13 +17,7 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if([self.reuseIdentifier isEqualToString:@"article1-1"]) {
         
-        _titleLabel = [[UILabel alloc] init];
-        _titleLabel.font = [UIFont systemFontOfSize:18];
-        [self.contentView addSubview:_titleLabel];
 
-        _palceTextField = [[UITextField alloc] init];
-        [self.contentView addSubview:_palceTextField];
-        
         UILabel *nameLabel = [[UILabel alloc] init];
         nameLabel.frame = CGRectMake(20, 10, 100, 50);
         nameLabel.text = @"姓名:";
@@ -60,101 +54,111 @@
         _classtextField.placeholder = @"班级";
         _classtextField.secureTextEntry = NO;
         [self.contentView addSubview: _classtextField];
-    }else if([self.reuseIdentifier isEqualToString:@"article1-5"]) {
-        
-        UILabel *beginLabel = [[UILabel alloc] init];
-        beginLabel.frame = CGRectMake(20, 10, 100, 50);
-        beginLabel.text = @"开始时间:";
-        beginLabel.font = [UIFont systemFontOfSize:18];
-        beginLabel.textColor = [UIColor blackColor];
-        [self.contentView addSubview:beginLabel];
-
-        
-        _begintextField = [[UITextField alloc] init];
-        _begintextField.frame = CGRectMake(120, 10, 375, 50);
-        _begintextField.font = [UIFont systemFontOfSize:18];
-        _begintextField.textColor = [UIColor blackColor];
-        _begintextField.borderStyle = UITextBorderStyleNone;
-        _begintextField.keyboardType = UIKeyboardTypeDefault;
-        _begintextField.placeholder = @"2020-12-02";
-        _begintextField.secureTextEntry = NO;
-        [self.contentView addSubview: _begintextField];
-    }else if([self.reuseIdentifier isEqualToString:@"article1-6"]) {
-        
-        UILabel *endLabel = [[UILabel alloc] init];
-        endLabel.frame = CGRectMake(20, 10, 100, 50);
-        endLabel.text = @"结束时间:";
-        endLabel.font = [UIFont systemFontOfSize:18];
-        endLabel.textColor = [UIColor blackColor];
-        [self.contentView addSubview:endLabel];
-        
-        UITextField* endtextField = [[UITextField alloc] init];
-        endtextField.frame = CGRectMake(120, 10, 375, 50);
-        //endtextField.text = @"结束时间:";
-        endtextField.font = [UIFont systemFontOfSize:18];
-        endtextField.textColor = [UIColor blackColor];
-        endtextField.borderStyle = UITextBorderStyleNone;
-        endtextField.keyboardType = UIKeyboardTypeDefault;
-        endtextField.placeholder = @"2020-12-02";
-        endtextField.secureTextEntry = NO;
-        [self.contentView addSubview: endtextField];
-    }else if([self.reuseIdentifier isEqualToString:@"article1-7"]) {
-        
-        UILabel *beginLabel = [[UILabel alloc] init];
-        beginLabel.frame = CGRectMake(20, 10, 100, 50);
-        beginLabel.text = @"销假地点:";
-        beginLabel.font = [UIFont systemFontOfSize:18];
-        beginLabel.textColor = [UIColor blackColor];
-        [self.contentView addSubview:beginLabel];
-        
-        UITextField* placetextField = [[UITextField alloc] init];
-        placetextField.frame = CGRectMake(120, 10, 375, 50);
-        //placetextField.text = @"销假地点:";
-        placetextField.font = [UIFont systemFontOfSize:18];
-        placetextField.textColor = [UIColor blackColor];
-        placetextField.borderStyle = UITextBorderStyleNone;
-        placetextField.keyboardType = UIKeyboardTypeDefault;
-        placetextField.placeholder = @"西安邮电大学长安校区";
-        placetextField.secureTextEntry = NO;
-        [self.contentView addSubview: placetextField];
-    }else if([self.reuseIdentifier isEqualToString:@"article1-8"]) {
-        
-        UILabel *beginLabel = [[UILabel alloc] init];
-        beginLabel.frame = CGRectMake(20, 10, 100, 50);
-        beginLabel.text = @"联系方式:";
-        beginLabel.font = [UIFont systemFontOfSize:18];
-        beginLabel.textColor = [UIColor blackColor];
-        [self.contentView addSubview:beginLabel];
-        
-        UITextField* phonetextField = [[UITextField alloc] init];
-        phonetextField.frame = CGRectMake(120, 10, 375, 50);
-        //phonetextField.text = @"联系方式:";
-        phonetextField.font = [UIFont systemFontOfSize:18];
-        phonetextField.textColor = [UIColor blackColor];
-        phonetextField.borderStyle = UITextBorderStyleNone;
-        phonetextField.keyboardType = UIKeyboardTypeDefault;
-        phonetextField.placeholder = @"自己的电话";
-        phonetextField.secureTextEntry = NO;
-        [self.contentView addSubview: phonetextField];
+//    }else if([self.reuseIdentifier isEqualToString:@"article1-5"]) {
+//
+//        UILabel *beginLabel = [[UILabel alloc] init];
+//        beginLabel.frame = CGRectMake(20, 10, 100, 50);
+//        beginLabel.text = @"开始时间:";
+//        beginLabel.font = [UIFont systemFontOfSize:18];
+//        beginLabel.textColor = [UIColor blackColor];
+//        [self.contentView addSubview:beginLabel];
+//
+//
+//        _begintextField = [[UITextField alloc] init];
+//        _begintextField.frame = CGRectMake(120, 10, 375, 50);
+//        _begintextField.font = [UIFont systemFontOfSize:18];
+//        _begintextField.textColor = [UIColor blackColor];
+//        _begintextField.borderStyle = UITextBorderStyleNone;
+//        _begintextField.keyboardType = UIKeyboardTypeDefault;
+//        _begintextField.placeholder = @"2020-12-02";
+//        _begintextField.secureTextEntry = NO;
+//        [self.contentView addSubview: _begintextField];
+//    }else if([self.reuseIdentifier isEqualToString:@"article1-6"]) {
+//
+//        UILabel *endLabel = [[UILabel alloc] init];
+//        endLabel.frame = CGRectMake(20, 10, 100, 50);
+//        endLabel.text = @"结束时间:";
+//        endLabel.font = [UIFont systemFontOfSize:18];
+//        endLabel.textColor = [UIColor blackColor];
+//        [self.contentView addSubview:endLabel];
+//
+//        UITextField* endtextField = [[UITextField alloc] init];
+//        endtextField.frame = CGRectMake(120, 10, 375, 50);
+//        //endtextField.text = @"结束时间:";
+//        endtextField.font = [UIFont systemFontOfSize:18];
+//        endtextField.textColor = [UIColor blackColor];
+//        endtextField.borderStyle = UITextBorderStyleNone;
+//        endtextField.keyboardType = UIKeyboardTypeDefault;
+//        endtextField.placeholder = @"2020-12-02";
+//        endtextField.secureTextEntry = NO;
+//        [self.contentView addSubview: endtextField];
+//    }else if([self.reuseIdentifier isEqualToString:@"article1-7"]) {
+//
+//        UILabel *beginLabel = [[UILabel alloc] init];
+//        beginLabel.frame = CGRectMake(20, 10, 100, 50);
+//        beginLabel.text = @"销假地点:";
+//        beginLabel.font = [UIFont systemFontOfSize:18];
+//        beginLabel.textColor = [UIColor blackColor];
+//        [self.contentView addSubview:beginLabel];
+//
+//        UITextField* placetextField = [[UITextField alloc] init];
+//        placetextField.frame = CGRectMake(120, 10, 375, 50);
+//        //placetextField.text = @"销假地点:";
+//        placetextField.font = [UIFont systemFontOfSize:18];
+//        placetextField.textColor = [UIColor blackColor];
+//        placetextField.borderStyle = UITextBorderStyleNone;
+//        placetextField.keyboardType = UIKeyboardTypeDefault;
+//        placetextField.placeholder = @"西安邮电大学长安校区";
+//        placetextField.secureTextEntry = NO;
+//        [self.contentView addSubview: placetextField];
+//    }else if([self.reuseIdentifier isEqualToString:@"article1-8"]) {
+//
+//        UILabel *beginLabel = [[UILabel alloc] init];
+//        beginLabel.frame = CGRectMake(20, 10, 100, 50);
+//        beginLabel.text = @"联系方式:";
+//        beginLabel.font = [UIFont systemFontOfSize:18];
+//        beginLabel.textColor = [UIColor blackColor];
+//        [self.contentView addSubview:beginLabel];
+//
+//        UITextField* phonetextField = [[UITextField alloc] init];
+//        phonetextField.frame = CGRectMake(120, 10, 375, 50);
+//        //phonetextField.text = @"联系方式:";
+//        phonetextField.font = [UIFont systemFontOfSize:18];
+//        phonetextField.textColor = [UIColor blackColor];
+//        phonetextField.borderStyle = UITextBorderStyleNone;
+//        phonetextField.keyboardType = UIKeyboardTypeDefault;
+//        phonetextField.placeholder = @"自己的电话";
+//        phonetextField.secureTextEntry = NO;
+//        [self.contentView addSubview: phonetextField];
     }else if([self.reuseIdentifier isEqualToString:@"article1-9"]) {
         
-        UILabel *beginLabel = [[UILabel alloc] init];
-        beginLabel.frame = CGRectMake(20, 10, 100, 50);
-        beginLabel.text = @"紧急联系人:";
-        beginLabel.font = [UIFont systemFontOfSize:18];
-        beginLabel.textColor = [UIColor blackColor];
-        [self.contentView addSubview:beginLabel];
+        _titleLabel = [[UILabel alloc] init];
+        _titleLabel.font = [UIFont systemFontOfSize:18];
+        [self.contentView addSubview:_titleLabel];
         
-        UITextField* peopletextField = [[UITextField alloc] init];
-        peopletextField.frame = CGRectMake(120, 10, 375, 50);
-        //peopletextField.text = @"紧急联系人:";
-        peopletextField.font = [UIFont systemFontOfSize:18];
-        peopletextField.textColor = [UIColor blackColor];
-        peopletextField.borderStyle = UITextBorderStyleNone;
-        peopletextField.keyboardType = UIKeyboardTypeDefault;
-        peopletextField.placeholder = @"紧急联系人电话";
-        peopletextField.secureTextEntry = NO;
-        [self.contentView addSubview: peopletextField];
+        _palceTextField = [[UITextField alloc] init];
+        _palceTextField.font = [UIFont systemFontOfSize:18];
+        _palceTextField.borderStyle = UITextBorderStyleNone;
+        _palceTextField.keyboardType = UIKeyboardTypeDefault;
+        [self.contentView addSubview:_palceTextField];
+        
+//        UILabel *beginLabel = [[UILabel alloc] init];
+//        beginLabel.frame = CGRectMake(20, 10, 100, 50);
+//        beginLabel.text = @"紧急联系人:";
+//        beginLabel.font = [UIFont systemFontOfSize:18];
+//        beginLabel.textColor = [UIColor blackColor];
+//        [self.contentView addSubview:beginLabel];
+//
+//        UITextField* peopletextField = [[UITextField alloc] init];
+//        peopletextField.frame = CGRectMake(120, 10, 375, 50);
+//        //peopletextField.text = @"紧急联系人:";
+//        peopletextField.font = [UIFont systemFontOfSize:18];
+//        peopletextField.textColor = [UIColor blackColor];
+//        peopletextField.borderStyle = UITextBorderStyleNone;
+//        peopletextField.keyboardType = UIKeyboardTypeDefault;
+//        peopletextField.placeholder = @"紧急联系人电话";
+//        peopletextField.secureTextEntry = NO;
+//        [self.contentView addSubview: peopletextField];
     }else if([self.reuseIdentifier isEqualToString:@"article1-3"]) {
         UILabel *typelabel = [[UILabel alloc] init];
         typelabel.frame = CGRectMake(20, 10, 100, 50);
@@ -208,7 +212,11 @@
     return self;
 }
 
+- (void)layoutSubviews {
+    _titleLabel.frame = CGRectMake(20, 10, 100, 50);
+    _palceTextField.frame = CGRectMake(120, 10, 375, 50);
 
+}
 
 - (void)awakeFromNib {
     [super awakeFromNib];

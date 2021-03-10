@@ -7,6 +7,7 @@
 //
 
 #import "TeacherLeaveTableViewCell.h"
+#import <Masonry.h>
 
 @implementation TeacherLeaveTableViewCell
 
@@ -57,15 +58,29 @@
         [label setFont:[UIFont fontWithName:@"Helvetica-Bold" size:20]];
         [self.contentView addSubview:label];
     }else if ([self.reuseIdentifier isEqualToString:@"cell04"]) {
-        _classLabel = [[UILabel alloc] initWithFrame:CGRectMake(130, 5, 120, 30)];
-        [self.contentView addSubview:_classLabel];
-        
-        _timeLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 5, 90, 30)];
+        _timeLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 5, 50, 30)];
         [self.contentView addSubview:_timeLabel];
         
-        _peopleLabel = [[UILabel alloc] initWithFrame:CGRectMake(330, 10, 50, 30)];
+        //_classLabel = [[UILabel alloc] initWithFrame:CGRectMake(130, 5, 120, 30)];
+        _classLabel = [[UILabel alloc] init];
+        [self.contentView addSubview:_classLabel];
+        [_classLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.mas_equalTo(@5);
+            make.left.equalTo(self.timeLabel.mas_right).mas_offset(5);
+            make.width.mas_equalTo(@120);
+            make.height.mas_equalTo(@30);
+        }];
+        
+        
+        _peopleLabel = [[UILabel alloc] init];
         _peopleLabel.textColor = [UIColor grayColor];
         [self.contentView addSubview:_peopleLabel];
+        [_peopleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.mas_equalTo(@10);
+            make.right.equalTo(self.contentView.mas_right).mas_offset(-5);
+            make.width.mas_equalTo(@50);
+            make.height.mas_equalTo(@30);
+        }];
     }
     return self;
 }

@@ -8,7 +8,7 @@
 
 #import "KaoheTableViewCell.h"
 #import "PieChartView.h"
-
+#import <Masonry.h>
 
 //@interface KaoheTableViewCell ()
 //
@@ -25,35 +25,37 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if([self.reuseIdentifier isEqualToString:@"grade"]) {
-        UIImageView *image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"头像"]];
-        image.frame = CGRectMake(20, 20, 120, 120);
+        UIImageView *image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"图像3.jpeg"]];
+        image.frame = CGRectMake(20, 20, 90, 90);
+        image.layer.masksToBounds = YES;
+        image.layer.cornerRadius = 41.0;
         [self.contentView addSubview:image];
         
         
         UILabel *label = [[UILabel alloc] init];
         label.text = @"郭敏慧";
         label.textColor = [UIColor whiteColor];
-        label.frame = CGRectMake(160, 50, 200, 40);
+        label.frame = CGRectMake(120, 50, 200, 40);
         label.font = [UIFont systemFontOfSize:18];
         [self.contentView addSubview:label];
         
         UILabel *label1 = [[UILabel alloc] init];
         label1.text = @"个人资料 >";
         label1.textColor = [UIColor whiteColor];
-        label1.frame = CGRectMake(160, 90, 200, 20);
+        label1.frame = CGRectMake(120, 90, 200, 20);
         [self.contentView addSubview:label1];
         
-        UILabel *percent = [[UILabel alloc] init];
-        percent.frame = CGRectMake(370, 90, 140, 20);
-        percent.text = @"45/100";
-        percent.textColor = [UIColor whiteColor];
-        [self.contentView addSubview:percent];
-        
-        UILabel *qiandao = [[UILabel alloc] init];
-        qiandao.frame = CGRectMake(300, 50, 150, 40);
-        qiandao.text = @"已签到/应签到";
-        qiandao.textColor = [UIColor whiteColor];
-        [self.contentView addSubview:qiandao];
+//        UILabel *percent = [[UILabel alloc] init];
+//        percent.frame = CGRectMake(370, 90, 140, 20);
+//        percent.text = @"45/100";
+//        percent.textColor = [UIColor whiteColor];
+//        [self.contentView addSubview:percent];
+//
+//        UILabel *qiandao = [[UILabel alloc] init];
+//        qiandao.frame = CGRectMake(300, 50, 150, 40);
+//        qiandao.text = @"已签到/应签到";
+//        qiandao.textColor = [UIColor whiteColor];
+//        [self.contentView addSubview:qiandao];
         
     }else if([self.reuseIdentifier isEqualToString:@"grade1"]) {
         UIImageView *image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"日历"]];
@@ -68,23 +70,39 @@
     }else if([self.reuseIdentifier isEqualToString:@"grade2"]) {
         UILabel *chuqinlabel = [[UILabel alloc] init];
         chuqinlabel.text = @"出勤占比图";
-        chuqinlabel.frame = CGRectMake(20, 10, 240, 30);
+        //chuqinlabel.frame = CGRectMake(20, 10, 240, 30);
         //chuqinlabel.font = [UIFont systemFontOfSize:28];
         [chuqinlabel setFont:[UIFont fontWithName:@"Helvetica-Bold" size:25]];
         [self.contentView addSubview:chuqinlabel];
-        
-        UIImageView *image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"切换"]];
-        image.frame = CGRectMake(215, 10, 30, 30);
-        [self.contentView addSubview:image];
+        [chuqinlabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.mas_equalTo(10);
+            make.width.mas_equalTo(200);
+            make.left.mas_equalTo(self.contentView.mas_left).mas_offset(20);
+            make.height.mas_equalTo(30);
+        }];
         
         UILabel *yearlabel = [[UILabel alloc] init];
         yearlabel.text = @"切换考勤课程占比图";
         yearlabel.textColor = [UIColor grayColor];
-        yearlabel.frame = CGRectMake(250, 10, 180, 30);
+        //yearlabel.frame = CGRectMake(250, 10, 180, 30);
         [self.contentView addSubview:yearlabel];
+        [yearlabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.mas_equalTo(10);
+            make.width.mas_equalTo(160);
+            make.right.mas_equalTo(self.contentView.mas_right).mas_offset(-5);
+            make.height.mas_equalTo(30);
+        }];
         
-        
-        
+        UIImageView *image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"切换"]];
+        //image.frame = CGRectMake(215, 10, 30, 30);
+        [self.contentView addSubview:image];
+        [image mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.mas_equalTo(15);
+            make.width.mas_equalTo(20);
+            make.right.mas_equalTo(yearlabel.mas_left).mas_offset(-5);
+            make.height.mas_equalTo(20);
+        }];
+          
     }else if([self.reuseIdentifier isEqualToString:@"grade3"]) {
         //PieChartView *charView  = [[PieChartView alloc] init];
         self.pieChartView2 = [[PieChartView alloc] initWithFrame:CGRectMake(0, 0, self.contentView.frame.size.width + 70, 300)];
@@ -113,9 +131,16 @@
         _label = [[UILabel alloc] initWithFrame:CGRectMake(20, 5, 120, 30)];
         [self.contentView addSubview:_label];
         
-        _timelabel = [[UILabel alloc] initWithFrame:CGRectMake(340, 10, 40, 30)];
+        _timelabel = [[UILabel alloc] init];
+        //WithFrame:CGRectMake(340, 10, 40, 30)
         _timelabel.textColor = [UIColor grayColor];
         [self.contentView addSubview:_timelabel];
+        [_timelabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.mas_equalTo(10);
+            make.width.mas_equalTo(40);
+            make.right.mas_equalTo(self.contentView.mas_right).mas_offset(-10);
+            make.height.mas_equalTo(30);
+        }];
     }
     return self;
 }

@@ -1,25 +1,14 @@
 PODS:
-  - BaiduMapKit (6.0.0):
-    - BaiduMapKit/Base (= 6.0.0)
-    - BaiduMapKit/Cloud (= 6.0.0)
-    - BaiduMapKit/Map (= 6.0.0)
-    - BaiduMapKit/Search (= 6.0.0)
-    - BaiduMapKit/Utils (= 6.0.0)
   - BaiduMapKit/Base (6.0.0)
-  - BaiduMapKit/Cloud (6.0.0):
-    - BaiduMapKit/Base
   - BaiduMapKit/Map (6.0.0):
     - BaiduMapKit/Base
   - BaiduMapKit/Search (6.0.0):
-    - BaiduMapKit/Base
-  - BaiduMapKit/Utils (6.0.0):
     - BaiduMapKit/Base
   - JSONModel (1.8.0)
   - Masonry (1.1.0)
   - WMPageController (2.5.2)
 
 DEPENDENCIES:
-  - BaiduMapKit (= 6.0.0)
   - BaiduMapKit/Map (= 6.0.0)
   - BaiduMapKit/Search (= 6.0.0)
   - JSONModel
@@ -39,6 +28,6 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
 
-PODFILE CHECKSUM: ab4f93b937d6d6b684b122cf9b6a3daa9dd571e2
+PODFILE CHECKSUM: e6f17ef104de696569acf93986b3895e5ecef05d
 
 COCOAPODS: 1.9.3

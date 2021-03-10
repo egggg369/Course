@@ -9,6 +9,7 @@
 #import "QingjiaViewController.h"
 #import "XinxiTableViewCell.h"
 #import "HistoryTableViewCell.h"
+#import <Masonry.h>
 
 @interface QingjiaViewController ()
 
@@ -52,10 +53,10 @@
     [_tableView1 registerClass:[XinxiTableViewCell class] forCellReuseIdentifier:@"article1-2"];
     [_tableView1 registerClass:[XinxiTableViewCell class] forCellReuseIdentifier:@"article1-3"];
     [_tableView1 registerClass:[XinxiTableViewCell class] forCellReuseIdentifier:@"article1-4"];
-    [_tableView1 registerClass:[XinxiTableViewCell class] forCellReuseIdentifier:@"article1-5"];
-    [_tableView1 registerClass:[XinxiTableViewCell class] forCellReuseIdentifier:@"article1-6"];
-    [_tableView1 registerClass:[XinxiTableViewCell class] forCellReuseIdentifier:@"article1-7"];
-    [_tableView1 registerClass:[XinxiTableViewCell class] forCellReuseIdentifier:@"article1-8"];
+//    [_tableView1 registerClass:[XinxiTableViewCell class] forCellReuseIdentifier:@"article1-5"];
+//    [_tableView1 registerClass:[XinxiTableViewCell class] forCellReuseIdentifier:@"article1-6"];
+//    [_tableView1 registerClass:[XinxiTableViewCell class] forCellReuseIdentifier:@"article1-7"];
+//    [_tableView1 registerClass:[XinxiTableViewCell class] forCellReuseIdentifier:@"article1-8"];
     [_tableView1 registerClass:[XinxiTableViewCell class] forCellReuseIdentifier:@"article1-9"];
     
     [_tableView1 registerClass:[XinxiTableViewCell class] forCellReuseIdentifier:@"article1-2-0"];
@@ -99,8 +100,8 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillDisAppear:) name:UIKeyboardWillHideNotification object:nil];
     
-    _titleArr = @[@"姓名", @"班级", @"请假类型", @"是否离校", @"开始时间", @"结束时间", @"销假地点", @"联系方式", @"紧急联系人"];
-    _placeArr = @[@"姓名", @"班级", @"2020-12-01", @"2020-12-01", @"西安邮电大学长安校区", @"自己的电话", @"紧急联系人电话"];
+//    _titleArr = @[@"姓名", @"班级", @"请假类型", @"是否离校", @"开始时间", @"结束时间", @"销假地点", @"联系方式", @"紧急联系人"];
+//    _placeArr = @[@"姓名", @"班级", @"2020-12-01", @"2020-12-01", @"西安邮电大学长安校区", @"自己的电话", @"紧急联系人电话"];
     
 }
 
@@ -158,7 +159,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     if(tableView.tag == 1 && section == 0) {
-        return _titleArr.count;
+        return 9;
     }else if(tableView.tag == 1 && section == 1) {
         return 1;
     }else if(tableView.tag == 1 && section == 2) {
@@ -191,24 +192,35 @@
         XinxiTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"article1-4" forIndexPath:indexPath];
         cell.selectionStyle = 0;
         return cell;
-    }else if(tableView.tag == 1 && indexPath.section == 0 && indexPath.row == 4) {
-        XinxiTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"article1-5" forIndexPath:indexPath];
-        cell.selectionStyle = 0;
-        return cell;
-    }else if(tableView.tag == 1 && indexPath.section == 0 && indexPath.row == 5) {
-        XinxiTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"article1-6" forIndexPath:indexPath];
-        cell.selectionStyle = 0;
-        return cell;
-    }else if(tableView.tag == 1 && indexPath.section == 0 && indexPath.row == 6) {
-        XinxiTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"article1-7" forIndexPath:indexPath];
-        cell.selectionStyle = 0;
-        return cell;
-    }else if(tableView.tag == 1 && indexPath.section == 0 && indexPath.row == 7) {
-        XinxiTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"article1-8" forIndexPath:indexPath];
-        cell.selectionStyle = 0;
-        return cell;
-    }else if(tableView.tag == 1 && indexPath.section == 0 && indexPath.row == 8) {
+//    }else if(tableView.tag == 1 && indexPath.section == 0 && indexPath.row == 4) {
+//        XinxiTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"article1-5" forIndexPath:indexPath];
+//        cell.selectionStyle = 0;
+//        return cell;
+//    }else if(tableView.tag == 1 && indexPath.section == 0 && indexPath.row == 5) {
+//        XinxiTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"article1-6" forIndexPath:indexPath];
+//        cell.selectionStyle = 0;
+//        return cell;
+//    }else if(tableView.tag == 1 && indexPath.section == 0 && indexPath.row == 6) {
+//        XinxiTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"article1-7" forIndexPath:indexPath];
+//        cell.selectionStyle = 0;
+//        return cell;
+//    }else if(tableView.tag == 1 && indexPath.section == 0 && indexPath.row == 7) {
+//        XinxiTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"article1-8" forIndexPath:indexPath];
+//        cell.selectionStyle = 0;
+//        return cell;
+//    }else if(tableView.tag == 1 && indexPath.section == 0 && indexPath.row == 8) {
+//        XinxiTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"article1-9" forIndexPath:indexPath];
+//        cell.selectionStyle = 0;
+//        return cell;
+    }else if (tableView.tag == 1 && indexPath.section == 0 && indexPath.row > 3) {
         XinxiTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"article1-9" forIndexPath:indexPath];
+        //NSArray *titleArr = [[NSArray alloc] init];
+        _titleArr = @[@"", @"", @"", @"", @"开始时间", @"结束时间", @"销假地点", @"联系方式", @"紧急联系人"];
+        //NSArray *placeholdArr = [[NSArray alloc] init];
+        _placeArr = @[@"", @"", @"", @"", @"2020-12-02", @"2020-12-02", @"西安邮电大学长安校区", @"自己的电话", @"紧急联系人的电话"];
+        
+        cell.titleLabel.text = self.titleArr[indexPath.row];
+        cell.palceTextField.placeholder = self.placeArr[indexPath.row];
         cell.selectionStyle = 0;
         return cell;
     }else  if(tableView.tag == 1 && indexPath.section == 1){
@@ -235,7 +247,7 @@
         XinxiTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"article1-4-0" forIndexPath:indexPath];
         
         UIButton *holdbtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-        holdbtn.frame = CGRectMake(20, 960, 330, 50);
+        //holdbtn.frame = CGRectMake(20, 960, 330, 50);
         [holdbtn setTitle:@"确定保存" forState:UIControlStateNormal];
         holdbtn.backgroundColor = [UIColor colorWithRed:3/255.0 green:214/255.0 blue:252/255.0 alpha:1];
         holdbtn.tintColor = [UIColor whiteColor];
@@ -245,6 +257,13 @@
         holdbtn.layer.cornerRadius = 10;
         
         [self.tableView1 addSubview:holdbtn];
+        
+        [holdbtn mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.mas_equalTo(960);
+            make.left.mas_equalTo(self.view.mas_left).mas_offset(40);
+            make.width.mas_equalTo(self.tableView1.frame.size.width - 35);
+            make.height.mas_equalTo(60);
+        }];
         
         cell.selectionStyle = 0;
         return cell;
