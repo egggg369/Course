@@ -19,183 +19,185 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0096B5A8BA8E4F2BFD8839D0FE7CD696 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C259473AC924C9784E2E654AAD1E532E /* MASLayoutConstraint.m */; };
-		01408404EFFBB95EE9232E585C3855CF /* UIViewController+WMPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D31748C3068BC3AB76F7BD362074C3E /* UIViewController+WMPageController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		088CE421BA6D7515042FBB3C061FF25E /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C39AFDA621517F1222935FC0EE9775 /* JSONModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		09BB333E707924861ED2368D8E0DC0A4 /* WMMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 94408C818F74C7F582BF8E0921C6DDD2 /* WMMenuView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0C465A43ED8A5912FE043594FADB18F5 /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 925E6D422B59FEBC4C92FC03E56B9884 /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		115ACCE253A886181B55773DDC70D6ED /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 951C83F981C596CEA5670D2E3F7075EA /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1D9D4F37D652DF8329DCF4CEA506CAAD /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = F69BD59915AE8A3F5D5570EDCE0ABE91 /* WMMenuView.m */; };
-		1E5D56FF58658F9F45723CA2940489EE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA3F152F059572030D524BDEC369CA6 /* MASConstraintMaker.m */; };
-		1EB887D99B2C94863633A1A81AF136A0 /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E80C052AAF42C5042D519BBC979105C /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		249F45FA1BC0076503426C2EA1D0DA30 /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12B22E01756B4C51A3334B1C1B97C1 /* WMPageController.m */; };
-		28ABC848DE41572BE6C72C7E4D898345 /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5940BC30968CEAE2F104ED84498C5637 /* WMMenuItem.m */; };
-		2D556FEC22E7CF69C8FCF75DF18B2294 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9DA7C4668B1627EFC1DDD01BF4E16D /* JSONHTTPClient.m */; };
-		407D8755C1A672747380D108C91A5E15 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C37D365AD24145D3A8EAADBCFF0FC3 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		42947699890A199B08A896144A878D80 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 614CBFFCF264ADC0DF1A43CEEBA99519 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		447C8274528369CD86D9B01731128581 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D819CB89D6247207B47ED1886130DC /* JSONModelError.m */; };
-		46692A2E77157B00827182C8DC686F72 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7121D9566C7469B4F9953CB92F9ED4 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4CE091F886EC6324673EFE0AEBBEA0FE /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6607189FC3036B612E89B1E9FF218370 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5009DCC235EF43F241AEBE3633C84826 /* WMPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = D149BE11B0694E5681F60D5CE0C1F1E7 /* WMPageController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		53EEB33768ACEB01F11B58912FE7511E /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7F927B210C4BAE6E0CA4D36E35DFD5 /* JSONModelClassProperty.m */; };
-		572D05B146EAA3EF5530A0D0E34904A0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 865443435389D961217A7EBC2C8BBC7E /* MASViewConstraint.m */; };
-		59EA578EED8BAC126FDC60C32AE11521 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 959A08A2AC7DFCF322BA1C2E318A43D6 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		5E28F1AF2000DF1EDDDBCBFA06068708 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = B289DC8C198E8E537423239CD96C57A4 /* JSONModel+networking.m */; };
-		5FEBB4D0572A8806CE183D90CFD07794 /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = E2574339481EFA6D0439957CA1138B4C /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		60A81314C7F4D48CC37E5ADC316573C2 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E32ED6C51BD6BF0CCC4272BA34F7F11A /* JSONModel.m */; };
-		63F87C318437740E8202E4D3DD0826FA /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 315FEBED8066CD9401B074E4E116322C /* MASCompositeConstraint.m */; };
-		65E88072A2BDC576BFC85E67EF9FBBC6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = E55EA8A3560D0A6C087D7BE61F5BA146 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6D45B0DD77BEA1D8C75F35C0A339726B /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 957BB727F3E3EE0FA0E16DE7DF9769A4 /* WMScrollView.m */; };
-		6DD0627D6C0759B32D98AF4721E2B333 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BF6BE26C1D399075ED56221C8B0210 /* JSONKeyMapper.m */; };
-		7065A6F5D3BF1165484CC5A60E9CB12D /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 128DB811EFE93D268CDDE94B622CB5C5 /* JSONValueTransformer.m */; };
-		753B4BAB31C0A092BF5B1F317167C9A7 /* WMMenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD87D577802247F758C8B8C3E480BE5 /* WMMenuItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0096B5A8BA8E4F2BFD8839D0FE7CD696 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEB46C8A1B8B8FA51559813616A800D /* MASLayoutConstraint.m */; };
+		01408404EFFBB95EE9232E585C3855CF /* UIViewController+WMPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = FD11E86DC491A97DB3F11B7FEF7B5904 /* UIViewController+WMPageController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		088CE421BA6D7515042FBB3C061FF25E /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 44DC6E1A42B59D60AD5AF05B0470E3D6 /* JSONModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		09BB333E707924861ED2368D8E0DC0A4 /* WMMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5845ED1CFE7074F5A17E40EC2AEB40D9 /* WMMenuView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C465A43ED8A5912FE043594FADB18F5 /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FFA7A3A8C15B06B1D2CF3C0C7E427D9 /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		115ACCE253A886181B55773DDC70D6ED /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 00508A070065DF623F82B80041B3B4EB /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D9D4F37D652DF8329DCF4CEA506CAAD /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C9C9CDC2EB13A3ADA7625A0B7CEF36 /* WMMenuView.m */; };
+		1E5D56FF58658F9F45723CA2940489EE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 974CC4EDC414671C84A4CD99D8C65FB4 /* MASConstraintMaker.m */; };
+		1EB887D99B2C94863633A1A81AF136A0 /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B5A5E0B87F8AD40EE22D9C4B7E1455 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		249F45FA1BC0076503426C2EA1D0DA30 /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15FEB20689DF6C0EDDA9EC228169A1B /* WMPageController.m */; };
+		28ABC848DE41572BE6C72C7E4D898345 /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFD331F9A105ADEA244A8C667AE67A2 /* WMMenuItem.m */; };
+		2D556FEC22E7CF69C8FCF75DF18B2294 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA12AA45C7AB0132896A37952DFB5CB /* JSONHTTPClient.m */; };
+		407D8755C1A672747380D108C91A5E15 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F73B89FE0515D283F2044080DA3E29E /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		42947699890A199B08A896144A878D80 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2650812178F03CC94F04B14E6D0A20 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		447C8274528369CD86D9B01731128581 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = A795AD96E856C76F3342712D4EB29027 /* JSONModelError.m */; };
+		46692A2E77157B00827182C8DC686F72 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C599C5DA5B4D3998653B77DBEB5F21 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4CE091F886EC6324673EFE0AEBBEA0FE /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 845D2F87155D469587BEC12E37DF0590 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5009DCC235EF43F241AEBE3633C84826 /* WMPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = D6B22779D41B935F36FF9186E5904519 /* WMPageController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		53EEB33768ACEB01F11B58912FE7511E /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B95B715410C17C6D5DD6EEB73DD8EB0B /* JSONModelClassProperty.m */; };
+		572D05B146EAA3EF5530A0D0E34904A0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3807DDE5028F37ABBB31F814E7419E44 /* MASViewConstraint.m */; };
+		59EA578EED8BAC126FDC60C32AE11521 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 77598CCF319B238BBEBD00B0DF0C5D2C /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		5E28F1AF2000DF1EDDDBCBFA06068708 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CCAF1A4361EA440ED9041041E60235 /* JSONModel+networking.m */; };
+		5FEBB4D0572A8806CE183D90CFD07794 /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E082352387355D30D7EE734B05428E6 /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60A81314C7F4D48CC37E5ADC316573C2 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D11056583DBEC6CA8166F7734EF64408 /* JSONModel.m */; };
+		63F87C318437740E8202E4D3DD0826FA /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B53A65DE8F5F8533343297EE71C4C06A /* MASCompositeConstraint.m */; };
+		65E88072A2BDC576BFC85E67EF9FBBC6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3354F097FD08FFE83EDCE48D439C04 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D45B0DD77BEA1D8C75F35C0A339726B /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 301435203B7BC8C15B204FDE630AC8DC /* WMScrollView.m */; };
+		6DD0627D6C0759B32D98AF4721E2B333 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE7188F9C8B8CDAED0F1A573A95A889 /* JSONKeyMapper.m */; };
+		7065A6F5D3BF1165484CC5A60E9CB12D /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E361BB9C457C16474700770CE3F79F6 /* JSONValueTransformer.m */; };
+		753B4BAB31C0A092BF5B1F317167C9A7 /* WMMenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C19508E9967B7643AE97554C5F736580 /* WMMenuItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7C45D11D01506E494BE461F2E525C2A9 /* Pods-Courseji-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 003B3DB1F9134CED65BF292F7BCAF23E /* Pods-Courseji-dummy.m */; };
-		7CF2AC7A3B3ED03B30C1E4ED662B0551 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7D5443FFE27F1BAAA9BA29AAB05C73 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		81F811A56B6724F7E8E2D25364E595E3 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A00C8AA67EB51E2CB9F89658E89F6BFB /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8AF8A00FF99FA533AF6C67FF2031E4BE /* WMPageController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27104C176492718F9B3508879ECC017E /* WMPageController-dummy.m */; };
-		9194B58ACE900ED6BAE6AD92E24A2CFF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8097D206C19F5CDC0567C03E5846014A /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		92BF70E9D3285561EB404A7C4A4A6DEE /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F3F8D5A81F6F9EB63DA61E0A1A76E65 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		93245CFD1F995A11CF08B7B7ABEB1492 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F111EF9C18F299D5BC7ED62FDCA92D0 /* WMProgressView.m */; };
-		A3307B8FB6EE0A049DBAE3AA4D2C6DA0 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 80D2EC067D1E88160B09ED1277ECE2F7 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A893FFB0F9137E298D6752729850D1D6 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC986312F26FA79F308F01C63B6C3F5 /* MASViewAttribute.m */; };
-		AE1A1314CD6E352B3E251BEF71F202FD /* UIViewController+WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA302435B61A48BB0C83F745050EEE52 /* UIViewController+WMPageController.m */; };
-		B192B39F3B60E0C966F59EFEEFE8E97D /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 428CF3377454EF21B1F4A5F0AE25202B /* JSONModelLib.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B20A0E5D8F9BCED1A82793C4BE9E7258 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C4877DFB6ED5694C555FC55DA29064 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B946AFB1A725D85E07F645A7EF086383 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F9042DFB6BE50D26A0820B73EADC27E2 /* NSArray+MASAdditions.m */; };
-		C05FC6699632FE712174ED875A605410 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7439FB814DDCE4BAAF943DBC7019B /* ViewController+MASAdditions.m */; };
-		C74D2E856ADC8139CD00DBD184061B23 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 854BAF38241444C26643C97EFCDC7262 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C7920681F0164686C56327ED3C6AAC58 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0BFFC4116D4EEEFB7A31A92B6EEFB3 /* View+MASAdditions.m */; };
-		CC80C02491577A141ECDAB26AB499692 /* WMScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = A637E5F38224BDD9DF3F04E573034355 /* WMScrollView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D72EE0E749232B2C899702FC1C9402BB /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 810AAFA662669B8FC942260402E2A22D /* Masonry-dummy.m */; };
-		DCE1E129DCB14E7BDDF54EFA60D2C158 /* WMProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E19C1B5B3573519CDDE07716D3E1F0D /* WMProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DFCC4B46B40A53AB8E6581F951F33389 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ABD874F820E94F563B85689CB0D4ECB /* JSONAPI.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E5217B41672FA6B5F28F9F6557C5B7EB /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 310181302CF9FB283E6127E8F5214635 /* JSONModelError.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E76935CFF4AF327F8D9A7C1935F7D900 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FC83AC1A79559F98AEDFBE125502B031 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EB663E3E1EB4BB670DC29B77DB330135 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A226A8A0ACCFACADE77CC49E1B250F /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EE936A6838005A5ED1BC5F74BE37B7BD /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 782C225CDB8908839A47C554B1C1F9FF /* MASConstraint.m */; };
-		F1B75048874B8773E5568E6D3ACA12E4 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EEE6A07DE09852AF5F7B29506BCE544 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F5547F4FB6F7D6958C255FF704C40960 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = E559D7065DB4620E45759D374602B096 /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F6BEC03752B97824ECDC12425485E634 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D5308906D7C1DE9B72200D38453D9F /* JSONAPI.m */; };
-		FA8E709EDB7A5A4E8C3B7FEA98662773 /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A2E55D922C418F48652D14D70C2E2B /* JSONModel-dummy.m */; };
+		7CF2AC7A3B3ED03B30C1E4ED662B0551 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DA3CB624BB828C5781E3B7E49ED71DB /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81F811A56B6724F7E8E2D25364E595E3 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECE91C5D04EE8983D5D0C34BB56262A /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8AF8A00FF99FA533AF6C67FF2031E4BE /* WMPageController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF4BE240D479C581F754115FCEDDDBD /* WMPageController-dummy.m */; };
+		9194B58ACE900ED6BAE6AD92E24A2CFF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A969DAA2DA5044EF39F43A8CD7C9C5C2 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		92BF70E9D3285561EB404A7C4A4A6DEE /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F84204A34842C2DFAD6AD075BC6F9786 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93245CFD1F995A11CF08B7B7ABEB1492 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F33F09DBF9CFE0882D7DAF751096463 /* WMProgressView.m */; };
+		A3307B8FB6EE0A049DBAE3AA4D2C6DA0 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6373DFEF3E563EA823A94E1FFA0E9D83 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A893FFB0F9137E298D6752729850D1D6 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2653344C2FBF527DD6EF1DB70CF531D2 /* MASViewAttribute.m */; };
+		AE1A1314CD6E352B3E251BEF71F202FD /* UIViewController+WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9853854B12027F76537864048F95EC24 /* UIViewController+WMPageController.m */; };
+		B192B39F3B60E0C966F59EFEEFE8E97D /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DBD62636991E239A39A16F3D55D8CD5 /* JSONModelLib.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B20A0E5D8F9BCED1A82793C4BE9E7258 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7B10E4EBEF9828DF91D814C857F296 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B946AFB1A725D85E07F645A7EF086383 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 243B21091CC65DAB719D78DA913C393D /* NSArray+MASAdditions.m */; };
+		C05FC6699632FE712174ED875A605410 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF56AC486C2CD5E9C5CD340CA49813E3 /* ViewController+MASAdditions.m */; };
+		C74D2E856ADC8139CD00DBD184061B23 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 88CA876B2918C5BF190C4F051AC57694 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7920681F0164686C56327ED3C6AAC58 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEAE240261FCF7AF660522D181E807F /* View+MASAdditions.m */; };
+		CC80C02491577A141ECDAB26AB499692 /* WMScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BDE4B35CBD5CFB8FB240C4A6BA78D4 /* WMScrollView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D72EE0E749232B2C899702FC1C9402BB /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 078E3EE39DA218333969039E962C1148 /* Masonry-dummy.m */; };
+		DCE1E129DCB14E7BDDF54EFA60D2C158 /* WMProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9484D4F6F49891AACE4375C4678AEE0A /* WMProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DFCC4B46B40A53AB8E6581F951F33389 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = A92287161BA9F9B7C298CDAF015CCB07 /* JSONAPI.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5217B41672FA6B5F28F9F6557C5B7EB /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 256C2A386CD370969422ABE0534BB630 /* JSONModelError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E76935CFF4AF327F8D9A7C1935F7D900 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0694885D1D8025E9C3992A881D1BE12C /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB663E3E1EB4BB670DC29B77DB330135 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = EBB333BF02206C018B08BED190FEDB2F /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE936A6838005A5ED1BC5F74BE37B7BD /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F472E653F4625CC63E81D0D4501774 /* MASConstraint.m */; };
+		F1B75048874B8773E5568E6D3ACA12E4 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D03E6810C6BAEB07A6A736925764BC /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F5547F4FB6F7D6958C255FF704C40960 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = D2262DC281655C21223C9B404634A70B /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6BEC03752B97824ECDC12425485E634 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D73DA7D16B69B96E60611CE469270 /* JSONAPI.m */; };
+		FA8E709EDB7A5A4E8C3B7FEA98662773 /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D88AD77979CF7EF4179441ADF8ADD6C /* JSONModel-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1B831C6C161B24700AF2812463200FCB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
-			remoteInfo = JSONModel;
-		};
-		68402351B003C5CD30F0D42C84203172 /* PBXContainerItemProxy */ = {
+		2B2E4ED42F5A911D02923D6F74E4EE2F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 08883C0649C4BF01A927DCFD71B79C92;
 			remoteInfo = WMPageController;
 		};
-		B5BCD0A02DA9E4198D893ED364C96DB4 /* PBXContainerItemProxy */ = {
+		2CF0CBB6729DC8988FEE6600324741FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2A98134A70001D88F2E8B45132A3E45D;
 			remoteInfo = BaiduMapKit;
 		};
-		FAAC69AB30033978A89F80887F0DA898 /* PBXContainerItemProxy */ = {
+		45F78BB0162674788FDEF0FA58464AC8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
+		AAD0B5AA95BB00B7BC5B989E08EF37AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
+			remoteInfo = JSONModel;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		003B3DB1F9134CED65BF292F7BCAF23E /* Pods-Courseji-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Courseji-dummy.m"; sourceTree = "<group>"; };
-		009DFFFED33C419BE294C5E5EB7B5275 /* mapapi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapKit/BaiduMapAPI_Map.framework/mapapi.bundle; sourceTree = "<group>"; };
-		0532D676800C83F9E256AA0BD1417B14 /* WMPageController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMPageController-prefix.pch"; sourceTree = "<group>"; };
-		0EA3F152F059572030D524BDEC369CA6 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		0EADA90CDAF724B5F29AE5E260C9BACD /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = BaiduMapKit/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
-		128DB811EFE93D268CDDE94B622CB5C5 /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
+		00508A070065DF623F82B80041B3B4EB /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		067DF3AF05F20DEAEFDA09ABBA13ED18 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = BaiduMapKit/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		0694885D1D8025E9C3992A881D1BE12C /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		078E3EE39DA218333969039E962C1148 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		0A0D73DA7D16B69B96E60611CE469270 /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
 		1437A2F4AAC51E4C6F0F5677F58EA5D5 /* Pods-Courseji-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Courseji-resources.sh"; sourceTree = "<group>"; };
-		14D5308906D7C1DE9B72200D38453D9F /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
-		17A58312C64BAADA7B623C0F10726E70 /* JSONModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.release.xcconfig; sourceTree = "<group>"; };
+		15557BCBB60697B69BE104D39B3AA809 /* JSONModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.release.xcconfig; sourceTree = "<group>"; };
+		1681B316FA529BDFEAB29621FBBF24E7 /* BaiduMapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaiduMapKit.release.xcconfig; sourceTree = "<group>"; };
+		17C599C5DA5B4D3998653B77DBEB5F21 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		18A1CB3C397B6508D2AE956121744AA1 /* Pods-Courseji-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Courseji-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1E19C1B5B3573519CDDE07716D3E1F0D /* WMProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMProgressView.h; path = WMPageController/WMMenuView/WMProgressView.h; sourceTree = "<group>"; };
-		1E80C052AAF42C5042D519BBC979105C /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		27104C176492718F9B3508879ECC017E /* WMPageController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WMPageController-dummy.m"; sourceTree = "<group>"; };
-		307361437228F6C387F782374F17838E /* WMPageController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMPageController.debug.xcconfig; sourceTree = "<group>"; };
-		310181302CF9FB283E6127E8F5214635 /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
-		315FEBED8066CD9401B074E4E116322C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		3D31748C3068BC3AB76F7BD362074C3E /* UIViewController+WMPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+WMPageController.h"; path = "WMPageController/UIViewController+WMPageController.h"; sourceTree = "<group>"; };
-		3DD7439FB814DDCE4BAAF943DBC7019B /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		3F3F8D5A81F6F9EB63DA61E0A1A76E65 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		428CF3377454EF21B1F4A5F0AE25202B /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
-		496862C61F826089F506FB785603D07F /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = BaiduMapKit/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
-		52D894FDB24A0EB3D731419788B366BC /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = BaiduMapKit/thirdlibs/libssl.a; sourceTree = "<group>"; };
-		57BF6BE26C1D399075ED56221C8B0210 /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
-		5940BC30968CEAE2F104ED84498C5637 /* WMMenuItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMMenuItem.m; path = WMPageController/WMMenuView/WMMenuItem.m; sourceTree = "<group>"; };
+		20D64588258466351E05A0F3DD19A627 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = BaiduMapKit/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		235D7FA9C6CDC8B7CC941E5A8CFC66EB /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		243B21091CC65DAB719D78DA913C393D /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		256C2A386CD370969422ABE0534BB630 /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
+		2653344C2FBF527DD6EF1DB70CF531D2 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		2A481E18C8B931C08170ED604C00D99D /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		2AE533AC2EC37EB60FB60D1746A83464 /* JSONModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.debug.xcconfig; sourceTree = "<group>"; };
+		2AF4BE240D479C581F754115FCEDDDBD /* WMPageController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WMPageController-dummy.m"; sourceTree = "<group>"; };
+		2FFA7A3A8C15B06B1D2CF3C0C7E427D9 /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		301435203B7BC8C15B204FDE630AC8DC /* WMScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMScrollView.m; path = WMPageController/WMMenuView/WMScrollView.m; sourceTree = "<group>"; };
+		31CDA46900B95DED3334084C3CB3EF20 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = BaiduMapKit/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
+		35C9C9CDC2EB13A3ADA7625A0B7CEF36 /* WMMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMMenuView.m; path = WMPageController/WMMenuView/WMMenuView.m; sourceTree = "<group>"; };
+		3807DDE5028F37ABBB31F814E7419E44 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		3DEB46C8A1B8B8FA51559813616A800D /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		3E361BB9C457C16474700770CE3F79F6 /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
+		3F73B89FE0515D283F2044080DA3E29E /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
+		42B5A5E0B87F8AD40EE22D9C4B7E1455 /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
+		44DC6E1A42B59D60AD5AF05B0470E3D6 /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
+		48CD061D5C89D3ABB676675D951FE795 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = BaiduMapKit/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		4DBD62636991E239A39A16F3D55D8CD5 /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
+		4ECE91C5D04EE8983D5D0C34BB56262A /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		4F2650812178F03CC94F04B14E6D0A20 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		5845ED1CFE7074F5A17E40EC2AEB40D9 /* WMMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMMenuView.h; path = WMPageController/WMMenuView/WMMenuView.h; sourceTree = "<group>"; };
 		59CD0B6A4E718100EA90310D698CD715 /* Pods-Courseji-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Courseji-acknowledgements.plist"; sourceTree = "<group>"; };
-		59D819CB89D6247207B47ED1886130DC /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
-		5F111EF9C18F299D5BC7ED62FDCA92D0 /* WMProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMProgressView.m; path = WMPageController/WMMenuView/WMProgressView.m; sourceTree = "<group>"; };
-		614CBFFCF264ADC0DF1A43CEEBA99519 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		61A2E55D922C418F48652D14D70C2E2B /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
-		6607189FC3036B612E89B1E9FF218370 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		6ABD874F820E94F563B85689CB0D4ECB /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		6053D33DC478CDD93FCCD8CFD5273B2E /* WMPageController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMPageController.debug.xcconfig; sourceTree = "<group>"; };
+		6373DFEF3E563EA823A94E1FFA0E9D83 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		75B39488E92A90AAA7BA3ABD69A5BA60 /* Pods-Courseji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Courseji.release.xcconfig"; sourceTree = "<group>"; };
-		782C225CDB8908839A47C554B1C1F9FF /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		79A226A8A0ACCFACADE77CC49E1B250F /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		79C4877DFB6ED5694C555FC55DA29064 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		7B7F927B210C4BAE6E0CA4D36E35DFD5 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
-		8097D206C19F5CDC0567C03E5846014A /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		80D2EC067D1E88160B09ED1277ECE2F7 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		810AAFA662669B8FC942260402E2A22D /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		819928043DEB375E2A0448F524052391 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
-		83B8B3F41647C0ED583872CFB1E2D817 /* BaiduMapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaiduMapKit.debug.xcconfig; sourceTree = "<group>"; };
-		854BAF38241444C26643C97EFCDC7262 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		865443435389D961217A7EBC2C8BBC7E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		8EEE6A07DE09852AF5F7B29506BCE544 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		905E150D5A04746D6DE409D9FB42C4D3 /* BaiduMapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaiduMapKit.release.xcconfig; sourceTree = "<group>"; };
-		925E6D422B59FEBC4C92FC03E56B9884 /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
-		94408C818F74C7F582BF8E0921C6DDD2 /* WMMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMMenuView.h; path = WMPageController/WMMenuView/WMMenuView.h; sourceTree = "<group>"; };
-		951C83F981C596CEA5670D2E3F7075EA /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		957BB727F3E3EE0FA0E16DE7DF9769A4 /* WMScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMScrollView.m; path = WMPageController/WMMenuView/WMScrollView.m; sourceTree = "<group>"; };
-		959A08A2AC7DFCF322BA1C2E318A43D6 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		77598CCF319B238BBEBD00B0DF0C5D2C /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		7D88AD77979CF7EF4179441ADF8ADD6C /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
+		7E082352387355D30D7EE734B05428E6 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		7F7B10E4EBEF9828DF91D814C857F296 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		845D2F87155D469587BEC12E37DF0590 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		88CA876B2918C5BF190C4F051AC57694 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		8AB9A11364077D1E35238AEE2701FE65 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = BaiduMapKit/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		8F33F09DBF9CFE0882D7DAF751096463 /* WMProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMProgressView.m; path = WMPageController/WMMenuView/WMProgressView.m; sourceTree = "<group>"; };
+		9484D4F6F49891AACE4375C4678AEE0A /* WMProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMProgressView.h; path = WMPageController/WMMenuView/WMProgressView.h; sourceTree = "<group>"; };
+		9486363FC3C12B72FDC21D8AD1A5F517 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		96BDE4B35CBD5CFB8FB240C4A6BA78D4 /* WMScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMScrollView.h; path = WMPageController/WMMenuView/WMScrollView.h; sourceTree = "<group>"; };
+		974CC4EDC414671C84A4CD99D8C65FB4 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		9853854B12027F76537864048F95EC24 /* UIViewController+WMPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+WMPageController.m"; path = "WMPageController/UIViewController+WMPageController.m"; sourceTree = "<group>"; };
+		9A221757A57B0E523F6676FEBEF0985D /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EC986312F26FA79F308F01C63B6C3F5 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		A00C8AA67EB51E2CB9F89658E89F6BFB /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		A637E5F38224BDD9DF3F04E573034355 /* WMScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMScrollView.h; path = WMPageController/WMMenuView/WMScrollView.h; sourceTree = "<group>"; };
-		AA302435B61A48BB0C83F745050EEE52 /* UIViewController+WMPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+WMPageController.m"; path = "WMPageController/UIViewController+WMPageController.m"; sourceTree = "<group>"; };
-		AB0BFFC4116D4EEEFB7A31A92B6EEFB3 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		AFC0D3A9071F7856A1E5E0120D179889 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
-		B289DC8C198E8E537423239CD96C57A4 /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
+		9DA3CB624BB828C5781E3B7E49ED71DB /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		A029470C39959D1CF6BD7FECA7919544 /* BaiduMapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaiduMapKit.debug.xcconfig; sourceTree = "<group>"; };
+		A795AD96E856C76F3342712D4EB29027 /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
+		A92287161BA9F9B7C298CDAF015CCB07 /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		A969DAA2DA5044EF39F43A8CD7C9C5C2 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		B0E14CACA3EBB7E95BC3FE54FC476852 /* WMPageController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMPageController-prefix.pch"; sourceTree = "<group>"; };
 		B2DB9D5B782706B142ED0F8A72F60B02 /* libPods-Courseji.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Courseji.a"; path = "libPods-Courseji.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9E06533E6CF62D5082FB73BB9E60C02 /* WMPageController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMPageController.release.xcconfig; sourceTree = "<group>"; };
+		B53A65DE8F5F8533343297EE71C4C06A /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		B95B715410C17C6D5DD6EEB73DD8EB0B /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
 		BAACA1BF7AB3DD28402C4F9A7C2FD104 /* libJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJSONModel.a; path = libJSONModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE7D5443FFE27F1BAAA9BA29AAB05C73 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		BF1FC66CF604C2FE86139639E2545E95 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		BF7121D9566C7469B4F9953CB92F9ED4 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		BB3354F097FD08FFE83EDCE48D439C04 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		BFFD331F9A105ADEA244A8C667AE67A2 /* WMMenuItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMMenuItem.m; path = WMPageController/WMMenuView/WMMenuItem.m; sourceTree = "<group>"; };
 		C0E2E7ED8A2C0795E7A5E712CE80D1FE /* Pods-Courseji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Courseji.debug.xcconfig"; sourceTree = "<group>"; };
-		C259473AC924C9784E2E654AAD1E532E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		C6B406E94B2D52C44A6A6028717858E1 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = BaiduMapKit/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
-		CA12B22E01756B4C51A3334B1C1B97C1 /* WMPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMPageController.m; path = WMPageController/WMPageController.m; sourceTree = "<group>"; };
-		CA9DA7C4668B1627EFC1DDD01BF4E16D /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
-		D149BE11B0694E5681F60D5CE0C1F1E7 /* WMPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMPageController.h; path = WMPageController/WMPageController.h; sourceTree = "<group>"; };
-		D2A57417713D9B0C15537207EFCFBEE2 /* JSONModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.debug.xcconfig; sourceTree = "<group>"; };
-		D3C39AFDA621517F1222935FC0EE9775 /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
-		DC676356FE5124B172EE62511E78BA0B /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = BaiduMapKit/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
-		E2574339481EFA6D0439957CA1138B4C /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
-		E2C37D365AD24145D3A8EAADBCFF0FC3 /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
-		E32ED6C51BD6BF0CCC4272BA34F7F11A /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
-		E559D7065DB4620E45759D374602B096 /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
-		E55EA8A3560D0A6C087D7BE61F5BA146 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		EFD87D577802247F758C8B8C3E480BE5 /* WMMenuItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMMenuItem.h; path = WMPageController/WMMenuView/WMMenuItem.h; sourceTree = "<group>"; };
-		F69BD59915AE8A3F5D5570EDCE0ABE91 /* WMMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMMenuView.m; path = WMPageController/WMMenuView/WMMenuView.m; sourceTree = "<group>"; };
-		F9042DFB6BE50D26A0820B73EADC27E2 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		C19508E9967B7643AE97554C5F736580 /* WMMenuItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMMenuItem.h; path = WMPageController/WMMenuView/WMMenuItem.h; sourceTree = "<group>"; };
+		C6F472E653F4625CC63E81D0D4501774 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		CEEAE240261FCF7AF660522D181E807F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		D11056583DBEC6CA8166F7734EF64408 /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
+		D2262DC281655C21223C9B404634A70B /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
+		D6B22779D41B935F36FF9186E5904519 /* WMPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMPageController.h; path = WMPageController/WMPageController.h; sourceTree = "<group>"; };
+		DE6AA647B7B412F3DE07C52AE238A634 /* mapapi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapKit/BaiduMapAPI_Map.framework/mapapi.bundle; sourceTree = "<group>"; };
+		DF56AC486C2CD5E9C5CD340CA49813E3 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		DFA12AA45C7AB0132896A37952DFB5CB /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
+		E09E6BFCAB4627A475D84F9A8C9B23C0 /* WMPageController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMPageController.release.xcconfig; sourceTree = "<group>"; };
+		E1D03E6810C6BAEB07A6A736925764BC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		E8CCAF1A4361EA440ED9041041E60235 /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
+		EBB333BF02206C018B08BED190FEDB2F /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		F15FEB20689DF6C0EDDA9EC228169A1B /* WMPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMPageController.m; path = WMPageController/WMPageController.m; sourceTree = "<group>"; };
+		F84204A34842C2DFAD6AD075BC6F9786 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		FB4DD2CD9E6286B9CB4B358E95FE3F6D /* libWMPageController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWMPageController.a; path = libWMPageController.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC83AC1A79559F98AEDFBE125502B031 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		FDA30E5732D32E871A9229B3C56569B9 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		FBC152F97CB6C46A2B1B8A2D98E9FFD0 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Cloud.framework; path = BaiduMapKit/BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		FBE7188F9C8B8CDAED0F1A573A95A889 /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
+		FCD1AB70AD2CDCD1CCBCBF2803803EE8 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = BaiduMapKit/thirdlibs/libssl.a; sourceTree = "<group>"; };
+		FD11E86DC491A97DB3F11B7FEF7B5904 /* UIViewController+WMPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+WMPageController.h"; path = "WMPageController/UIViewController+WMPageController.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,102 +232,112 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3D339B4AF480805FD0318ACBC529D612 /* Frameworks */ = {
+		001FC4ED197E6F8682D5D949E071DB72 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DC676356FE5124B172EE62511E78BA0B /* BaiduMapAPI_Map.framework */,
+				8AB9A11364077D1E35238AEE2701FE65 /* BaiduMapAPI_Search.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		42F50CB98FA1CB81E3DCFE88F9F63399 /* Pods */ = {
+		058EAC91188391A63884B3D7D5CD4876 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				71F5575FF36B29A01AA6EBE08C90FBFD /* BaiduMapKit */,
-				4C450C18339408DEA3D0063070496582 /* JSONModel */,
-				4E289ADF77986A12190C23A274D7D06F /* Masonry */,
-				7F180EB90618E236ECF48B35F654AF6B /* WMPageController */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		4C450C18339408DEA3D0063070496582 /* JSONModel */ = {
-			isa = PBXGroup;
-			children = (
-				6ABD874F820E94F563B85689CB0D4ECB /* JSONAPI.h */,
-				14D5308906D7C1DE9B72200D38453D9F /* JSONAPI.m */,
-				E2C37D365AD24145D3A8EAADBCFF0FC3 /* JSONHTTPClient.h */,
-				CA9DA7C4668B1627EFC1DDD01BF4E16D /* JSONHTTPClient.m */,
-				1E80C052AAF42C5042D519BBC979105C /* JSONKeyMapper.h */,
-				57BF6BE26C1D399075ED56221C8B0210 /* JSONKeyMapper.m */,
-				D3C39AFDA621517F1222935FC0EE9775 /* JSONModel.h */,
-				E32ED6C51BD6BF0CCC4272BA34F7F11A /* JSONModel.m */,
-				925E6D422B59FEBC4C92FC03E56B9884 /* JSONModel+networking.h */,
-				B289DC8C198E8E537423239CD96C57A4 /* JSONModel+networking.m */,
-				E2574339481EFA6D0439957CA1138B4C /* JSONModelClassProperty.h */,
-				7B7F927B210C4BAE6E0CA4D36E35DFD5 /* JSONModelClassProperty.m */,
-				310181302CF9FB283E6127E8F5214635 /* JSONModelError.h */,
-				59D819CB89D6247207B47ED1886130DC /* JSONModelError.m */,
-				428CF3377454EF21B1F4A5F0AE25202B /* JSONModelLib.h */,
-				E559D7065DB4620E45759D374602B096 /* JSONValueTransformer.h */,
-				128DB811EFE93D268CDDE94B622CB5C5 /* JSONValueTransformer.m */,
-				6D816BD7A778938E6ED6976AE1CFE782 /* Support Files */,
-			);
-			name = JSONModel;
-			path = JSONModel;
-			sourceTree = "<group>";
-		};
-		4E289ADF77986A12190C23A274D7D06F /* Masonry */ = {
-			isa = PBXGroup;
-			children = (
-				3F3F8D5A81F6F9EB63DA61E0A1A76E65 /* MASCompositeConstraint.h */,
-				315FEBED8066CD9401B074E4E116322C /* MASCompositeConstraint.m */,
-				79A226A8A0ACCFACADE77CC49E1B250F /* MASConstraint.h */,
-				782C225CDB8908839A47C554B1C1F9FF /* MASConstraint.m */,
-				6607189FC3036B612E89B1E9FF218370 /* MASConstraint+Private.h */,
-				8097D206C19F5CDC0567C03E5846014A /* MASConstraintMaker.h */,
-				0EA3F152F059572030D524BDEC369CA6 /* MASConstraintMaker.m */,
-				BE7D5443FFE27F1BAAA9BA29AAB05C73 /* MASLayoutConstraint.h */,
-				C259473AC924C9784E2E654AAD1E532E /* MASLayoutConstraint.m */,
-				79C4877DFB6ED5694C555FC55DA29064 /* Masonry.h */,
-				E55EA8A3560D0A6C087D7BE61F5BA146 /* MASUtilities.h */,
-				614CBFFCF264ADC0DF1A43CEEBA99519 /* MASViewAttribute.h */,
-				9EC986312F26FA79F308F01C63B6C3F5 /* MASViewAttribute.m */,
-				951C83F981C596CEA5670D2E3F7075EA /* MASViewConstraint.h */,
-				865443435389D961217A7EBC2C8BBC7E /* MASViewConstraint.m */,
-				8EEE6A07DE09852AF5F7B29506BCE544 /* NSArray+MASAdditions.h */,
-				F9042DFB6BE50D26A0820B73EADC27E2 /* NSArray+MASAdditions.m */,
-				A00C8AA67EB51E2CB9F89658E89F6BFB /* NSArray+MASShorthandAdditions.h */,
-				854BAF38241444C26643C97EFCDC7262 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				959A08A2AC7DFCF322BA1C2E318A43D6 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				BF7121D9566C7469B4F9953CB92F9ED4 /* View+MASAdditions.h */,
-				AB0BFFC4116D4EEEFB7A31A92B6EEFB3 /* View+MASAdditions.m */,
-				80D2EC067D1E88160B09ED1277ECE2F7 /* View+MASShorthandAdditions.h */,
-				FC83AC1A79559F98AEDFBE125502B031 /* ViewController+MASAdditions.h */,
-				3DD7439FB814DDCE4BAAF943DBC7019B /* ViewController+MASAdditions.m */,
-				B8FE6CBC0C5DA29CB2ED2CB9337934DF /* Support Files */,
+				F84204A34842C2DFAD6AD075BC6F9786 /* MASCompositeConstraint.h */,
+				B53A65DE8F5F8533343297EE71C4C06A /* MASCompositeConstraint.m */,
+				EBB333BF02206C018B08BED190FEDB2F /* MASConstraint.h */,
+				C6F472E653F4625CC63E81D0D4501774 /* MASConstraint.m */,
+				845D2F87155D469587BEC12E37DF0590 /* MASConstraint+Private.h */,
+				A969DAA2DA5044EF39F43A8CD7C9C5C2 /* MASConstraintMaker.h */,
+				974CC4EDC414671C84A4CD99D8C65FB4 /* MASConstraintMaker.m */,
+				9DA3CB624BB828C5781E3B7E49ED71DB /* MASLayoutConstraint.h */,
+				3DEB46C8A1B8B8FA51559813616A800D /* MASLayoutConstraint.m */,
+				7F7B10E4EBEF9828DF91D814C857F296 /* Masonry.h */,
+				BB3354F097FD08FFE83EDCE48D439C04 /* MASUtilities.h */,
+				4F2650812178F03CC94F04B14E6D0A20 /* MASViewAttribute.h */,
+				2653344C2FBF527DD6EF1DB70CF531D2 /* MASViewAttribute.m */,
+				00508A070065DF623F82B80041B3B4EB /* MASViewConstraint.h */,
+				3807DDE5028F37ABBB31F814E7419E44 /* MASViewConstraint.m */,
+				E1D03E6810C6BAEB07A6A736925764BC /* NSArray+MASAdditions.h */,
+				243B21091CC65DAB719D78DA913C393D /* NSArray+MASAdditions.m */,
+				4ECE91C5D04EE8983D5D0C34BB56262A /* NSArray+MASShorthandAdditions.h */,
+				88CA876B2918C5BF190C4F051AC57694 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				77598CCF319B238BBEBD00B0DF0C5D2C /* NSLayoutConstraint+MASDebugAdditions.m */,
+				17C599C5DA5B4D3998653B77DBEB5F21 /* View+MASAdditions.h */,
+				CEEAE240261FCF7AF660522D181E807F /* View+MASAdditions.m */,
+				6373DFEF3E563EA823A94E1FFA0E9D83 /* View+MASShorthandAdditions.h */,
+				0694885D1D8025E9C3992A881D1BE12C /* ViewController+MASAdditions.h */,
+				DF56AC486C2CD5E9C5CD340CA49813E3 /* ViewController+MASAdditions.m */,
+				F093C7777F3AFF5E62AA715D2421CEE7 /* Support Files */,
 			);
 			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		50B83027F0FE278DCC9F5B8D5C5CB8BB /* Frameworks */ = {
+		10914FA4C6B83E628308985CBBF6A779 /* WMPageController */ = {
 			isa = PBXGroup;
 			children = (
-				496862C61F826089F506FB785603D07F /* BaiduMapAPI_Base.framework */,
-				0EADA90CDAF724B5F29AE5E260C9BACD /* libcrypto.a */,
-				52D894FDB24A0EB3D731419788B366BC /* libssl.a */,
+				FD11E86DC491A97DB3F11B7FEF7B5904 /* UIViewController+WMPageController.h */,
+				9853854B12027F76537864048F95EC24 /* UIViewController+WMPageController.m */,
+				C19508E9967B7643AE97554C5F736580 /* WMMenuItem.h */,
+				BFFD331F9A105ADEA244A8C667AE67A2 /* WMMenuItem.m */,
+				5845ED1CFE7074F5A17E40EC2AEB40D9 /* WMMenuView.h */,
+				35C9C9CDC2EB13A3ADA7625A0B7CEF36 /* WMMenuView.m */,
+				D6B22779D41B935F36FF9186E5904519 /* WMPageController.h */,
+				F15FEB20689DF6C0EDDA9EC228169A1B /* WMPageController.m */,
+				9484D4F6F49891AACE4375C4678AEE0A /* WMProgressView.h */,
+				8F33F09DBF9CFE0882D7DAF751096463 /* WMProgressView.m */,
+				96BDE4B35CBD5CFB8FB240C4A6BA78D4 /* WMScrollView.h */,
+				301435203B7BC8C15B204FDE630AC8DC /* WMScrollView.m */,
+				A76D4B150B5AD9C569ED485C56B1362D /* Support Files */,
 			);
-			name = Frameworks;
+			name = WMPageController;
+			path = WMPageController;
 			sourceTree = "<group>";
 		};
-		633966D0777FEF936E212439A2CDCAAF /* Map */ = {
+		3AD7B971CA3A8501643EF670956C68AE /* JSONModel */ = {
 			isa = PBXGroup;
 			children = (
-				3D339B4AF480805FD0318ACBC529D612 /* Frameworks */,
-				FB9FDB3C69CC1F9E94E4A6CB7C917A4D /* Resources */,
+				A92287161BA9F9B7C298CDAF015CCB07 /* JSONAPI.h */,
+				0A0D73DA7D16B69B96E60611CE469270 /* JSONAPI.m */,
+				3F73B89FE0515D283F2044080DA3E29E /* JSONHTTPClient.h */,
+				DFA12AA45C7AB0132896A37952DFB5CB /* JSONHTTPClient.m */,
+				42B5A5E0B87F8AD40EE22D9C4B7E1455 /* JSONKeyMapper.h */,
+				FBE7188F9C8B8CDAED0F1A573A95A889 /* JSONKeyMapper.m */,
+				44DC6E1A42B59D60AD5AF05B0470E3D6 /* JSONModel.h */,
+				D11056583DBEC6CA8166F7734EF64408 /* JSONModel.m */,
+				2FFA7A3A8C15B06B1D2CF3C0C7E427D9 /* JSONModel+networking.h */,
+				E8CCAF1A4361EA440ED9041041E60235 /* JSONModel+networking.m */,
+				7E082352387355D30D7EE734B05428E6 /* JSONModelClassProperty.h */,
+				B95B715410C17C6D5DD6EEB73DD8EB0B /* JSONModelClassProperty.m */,
+				256C2A386CD370969422ABE0534BB630 /* JSONModelError.h */,
+				A795AD96E856C76F3342712D4EB29027 /* JSONModelError.m */,
+				4DBD62636991E239A39A16F3D55D8CD5 /* JSONModelLib.h */,
+				D2262DC281655C21223C9B404634A70B /* JSONValueTransformer.h */,
+				3E361BB9C457C16474700770CE3F79F6 /* JSONValueTransformer.m */,
+				B16068719DE52AE3BA4C578F1C11A928 /* Support Files */,
 			);
-			name = Map;
+			name = JSONModel;
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		3CD5708397D0C57B75B1FDFE2EC364C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAF508A723FD2662380F05887FFBA6DA /* BaiduMapKit */,
+				3AD7B971CA3A8501643EF670956C68AE /* JSONModel */,
+				058EAC91188391A63884B3D7D5CD4876 /* Masonry */,
+				10914FA4C6B83E628308985CBBF6A779 /* WMPageController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B5994C9534EC63C7C2915A25241FA33 /* Cloud */ = {
+			isa = PBXGroup;
+			children = (
+				6F41F3077D4AA784378A33C3ACFCDA91 /* Frameworks */,
+			);
+			name = Cloud;
 			sourceTree = "<group>";
 		};
 		685F27113A2D7B8F449E795353F88F78 /* Products */ = {
@@ -339,16 +351,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6D816BD7A778938E6ED6976AE1CFE782 /* Support Files */ = {
+		68CA1220393F6E7CF8404ED095BB4D35 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				61A2E55D922C418F48652D14D70C2E2B /* JSONModel-dummy.m */,
-				819928043DEB375E2A0448F524052391 /* JSONModel-prefix.pch */,
-				D2A57417713D9B0C15537207EFCFBEE2 /* JSONModel.debug.xcconfig */,
-				17A58312C64BAADA7B623C0F10726E70 /* JSONModel.release.xcconfig */,
+				AF81841661CF3F39F5F3EE3CD327DDA3 /* Frameworks */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/JSONModel";
+			name = Base;
 			sourceTree = "<group>";
 		};
 		6E0F7BE40EFD04267601F4C0427EE959 /* Targets Support Files */ = {
@@ -359,77 +367,89 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6FFD8531BE3041A4E9CB5C7747D12C88 /* Base */ = {
+		6F41F3077D4AA784378A33C3ACFCDA91 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				50B83027F0FE278DCC9F5B8D5C5CB8BB /* Frameworks */,
+				FBC152F97CB6C46A2B1B8A2D98E9FFD0 /* BaiduMapAPI_Cloud.framework */,
 			);
-			name = Base;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		71F5575FF36B29A01AA6EBE08C90FBFD /* BaiduMapKit */ = {
+		7E29162FD8F17969C70F5D6D67E7573B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6FFD8531BE3041A4E9CB5C7747D12C88 /* Base */,
-				633966D0777FEF936E212439A2CDCAAF /* Map */,
-				7BC4C9718503938488F77280BCCD6360 /* Search */,
-				DDE605F9F65D1F603197BBE52F228C15 /* Support Files */,
+				20D64588258466351E05A0F3DD19A627 /* BaiduMapAPI_Map.framework */,
 			);
-			name = BaiduMapKit;
-			path = BaiduMapKit;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7B509BC53842BDB2B09B77F384E9A7E9 /* Support Files */ = {
+		827467DB2AAE71BC77256475A26292E7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				27104C176492718F9B3508879ECC017E /* WMPageController-dummy.m */,
-				0532D676800C83F9E256AA0BD1417B14 /* WMPageController-prefix.pch */,
-				307361437228F6C387F782374F17838E /* WMPageController.debug.xcconfig */,
-				B9E06533E6CF62D5082FB73BB9E60C02 /* WMPageController.release.xcconfig */,
+				DE6AA647B7B412F3DE07C52AE238A634 /* mapapi.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A76D4B150B5AD9C569ED485C56B1362D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AF4BE240D479C581F754115FCEDDDBD /* WMPageController-dummy.m */,
+				B0E14CACA3EBB7E95BC3FE54FC476852 /* WMPageController-prefix.pch */,
+				6053D33DC478CDD93FCCD8CFD5273B2E /* WMPageController.debug.xcconfig */,
+				E09E6BFCAB4627A475D84F9A8C9B23C0 /* WMPageController.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/WMPageController";
 			sourceTree = "<group>";
 		};
-		7BC4C9718503938488F77280BCCD6360 /* Search */ = {
+		AF81841661CF3F39F5F3EE3CD327DDA3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DF1467341FD8CF38F2AFB1C2C334BC94 /* Frameworks */,
+				48CD061D5C89D3ABB676675D951FE795 /* BaiduMapAPI_Base.framework */,
+				31CDA46900B95DED3334084C3CB3EF20 /* libcrypto.a */,
+				FCD1AB70AD2CDCD1CCBCBF2803803EE8 /* libssl.a */,
 			);
-			name = Search;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7F180EB90618E236ECF48B35F654AF6B /* WMPageController */ = {
+		B16068719DE52AE3BA4C578F1C11A928 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3D31748C3068BC3AB76F7BD362074C3E /* UIViewController+WMPageController.h */,
-				AA302435B61A48BB0C83F745050EEE52 /* UIViewController+WMPageController.m */,
-				EFD87D577802247F758C8B8C3E480BE5 /* WMMenuItem.h */,
-				5940BC30968CEAE2F104ED84498C5637 /* WMMenuItem.m */,
-				94408C818F74C7F582BF8E0921C6DDD2 /* WMMenuView.h */,
-				F69BD59915AE8A3F5D5570EDCE0ABE91 /* WMMenuView.m */,
-				D149BE11B0694E5681F60D5CE0C1F1E7 /* WMPageController.h */,
-				CA12B22E01756B4C51A3334B1C1B97C1 /* WMPageController.m */,
-				1E19C1B5B3573519CDDE07716D3E1F0D /* WMProgressView.h */,
-				5F111EF9C18F299D5BC7ED62FDCA92D0 /* WMProgressView.m */,
-				A637E5F38224BDD9DF3F04E573034355 /* WMScrollView.h */,
-				957BB727F3E3EE0FA0E16DE7DF9769A4 /* WMScrollView.m */,
-				7B509BC53842BDB2B09B77F384E9A7E9 /* Support Files */,
-			);
-			name = WMPageController;
-			path = WMPageController;
-			sourceTree = "<group>";
-		};
-		B8FE6CBC0C5DA29CB2ED2CB9337934DF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				810AAFA662669B8FC942260402E2A22D /* Masonry-dummy.m */,
-				BF1FC66CF604C2FE86139639E2545E95 /* Masonry-prefix.pch */,
-				FDA30E5732D32E871A9229B3C56569B9 /* Masonry.debug.xcconfig */,
-				AFC0D3A9071F7856A1E5E0120D179889 /* Masonry.release.xcconfig */,
+				7D88AD77979CF7EF4179441ADF8ADD6C /* JSONModel-dummy.m */,
+				9A221757A57B0E523F6676FEBEF0985D /* JSONModel-prefix.pch */,
+				2AE533AC2EC37EB60FB60D1746A83464 /* JSONModel.debug.xcconfig */,
+				15557BCBB60697B69BE104D39B3AA809 /* JSONModel.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Masonry";
+			path = "../Target Support Files/JSONModel";
+			sourceTree = "<group>";
+		};
+		B4155D5F278176E11080EBC9E1D37598 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A029470C39959D1CF6BD7FECA7919544 /* BaiduMapKit.debug.xcconfig */,
+				1681B316FA529BDFEAB29621FBBF24E7 /* BaiduMapKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BaiduMapKit";
+			sourceTree = "<group>";
+		};
+		B504A3B262F2CF90C03E94C9D8CA6C88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				067DF3AF05F20DEAEFDA09ABBA13ED18 /* BaiduMapAPI_Utils.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B799E2253D665EF78D9495CB2C0E851B /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				7E29162FD8F17969C70F5D6D67E7573B /* Frameworks */,
+				827467DB2AAE71BC77256475A26292E7 /* Resources */,
+			);
+			name = Map;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -437,10 +457,18 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				42F50CB98FA1CB81E3DCFE88F9F63399 /* Pods */,
+				3CD5708397D0C57B75B1FDFE2EC364C9 /* Pods */,
 				685F27113A2D7B8F449E795353F88F78 /* Products */,
 				6E0F7BE40EFD04267601F4C0427EE959 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D7A93E32F8A69A77B1706C329C808D9B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				001FC4ED197E6F8682D5D949E071DB72 /* Frameworks */,
+			);
+			name = Search;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -450,22 +478,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DDE605F9F65D1F603197BBE52F228C15 /* Support Files */ = {
+		D997307B7B5FE630FFBE71BA4FA8FA77 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				83B8B3F41647C0ED583872CFB1E2D817 /* BaiduMapKit.debug.xcconfig */,
-				905E150D5A04746D6DE409D9FB42C4D3 /* BaiduMapKit.release.xcconfig */,
+				B504A3B262F2CF90C03E94C9D8CA6C88 /* Frameworks */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/BaiduMapKit";
-			sourceTree = "<group>";
-		};
-		DF1467341FD8CF38F2AFB1C2C334BC94 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C6B406E94B2D52C44A6A6028717858E1 /* BaiduMapAPI_Search.framework */,
-			);
-			name = Frameworks;
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		E400ECA447B0DD5BEF5E6EDFD60B2588 /* Pods-Courseji */ = {
@@ -482,12 +500,30 @@
 			path = "Target Support Files/Pods-Courseji";
 			sourceTree = "<group>";
 		};
-		FB9FDB3C69CC1F9E94E4A6CB7C917A4D /* Resources */ = {
+		F093C7777F3AFF5E62AA715D2421CEE7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				009DFFFED33C419BE294C5E5EB7B5275 /* mapapi.bundle */,
+				078E3EE39DA218333969039E962C1148 /* Masonry-dummy.m */,
+				2A481E18C8B931C08170ED604C00D99D /* Masonry-prefix.pch */,
+				235D7FA9C6CDC8B7CC941E5A8CFC66EB /* Masonry.debug.xcconfig */,
+				9486363FC3C12B72FDC21D8AD1A5F517 /* Masonry.release.xcconfig */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		FAF508A723FD2662380F05887FFBA6DA /* BaiduMapKit */ = {
+			isa = PBXGroup;
+			children = (
+				68CA1220393F6E7CF8404ED095BB4D35 /* Base */,
+				5B5994C9534EC63C7C2915A25241FA33 /* Cloud */,
+				B799E2253D665EF78D9495CB2C0E851B /* Map */,
+				D7A93E32F8A69A77B1706C329C808D9B /* Search */,
+				B4155D5F278176E11080EBC9E1D37598 /* Support Files */,
+				D997307B7B5FE630FFBE71BA4FA8FA77 /* Utils */,
+			);
+			name = BaiduMapKit;
+			path = BaiduMapKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -599,10 +635,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				45CD112A3F164F9A3ECB30089E21E76A /* PBXTargetDependency */,
-				9FEED335801D4F041753F48F09D7DD86 /* PBXTargetDependency */,
-				639AFC7A4A989BE8FF01B34AA4B62F18 /* PBXTargetDependency */,
-				CA2F1B68F4041190A22F122C11C95B39 /* PBXTargetDependency */,
+				AF098516082A5264728A82B833E3402A /* PBXTargetDependency */,
+				016E63BD8BB42FD8316C573F7F609E6B /* PBXTargetDependency */,
+				CDFDFCFC0C42AC57465F26136A09C6CE /* PBXTargetDependency */,
+				3AB862292A08F2915A4F176BEDB55E15 /* PBXTargetDependency */,
 			);
 			name = "Pods-Courseji";
 			productName = "Pods-Courseji";
@@ -717,36 +753,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		45CD112A3F164F9A3ECB30089E21E76A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BaiduMapKit;
-			target = 2A98134A70001D88F2E8B45132A3E45D /* BaiduMapKit */;
-			targetProxy = B5BCD0A02DA9E4198D893ED364C96DB4 /* PBXContainerItemProxy */;
-		};
-		639AFC7A4A989BE8FF01B34AA4B62F18 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = FAAC69AB30033978A89F80887F0DA898 /* PBXContainerItemProxy */;
-		};
-		9FEED335801D4F041753F48F09D7DD86 /* PBXTargetDependency */ = {
+		016E63BD8BB42FD8316C573F7F609E6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JSONModel;
 			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
-			targetProxy = 1B831C6C161B24700AF2812463200FCB /* PBXContainerItemProxy */;
+			targetProxy = AAD0B5AA95BB00B7BC5B989E08EF37AD /* PBXContainerItemProxy */;
 		};
-		CA2F1B68F4041190A22F122C11C95B39 /* PBXTargetDependency */ = {
+		3AB862292A08F2915A4F176BEDB55E15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WMPageController;
 			target = 08883C0649C4BF01A927DCFD71B79C92 /* WMPageController */;
-			targetProxy = 68402351B003C5CD30F0D42C84203172 /* PBXContainerItemProxy */;
+			targetProxy = 2B2E4ED42F5A911D02923D6F74E4EE2F /* PBXContainerItemProxy */;
+		};
+		AF098516082A5264728A82B833E3402A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaiduMapKit;
+			target = 2A98134A70001D88F2E8B45132A3E45D /* BaiduMapKit */;
+			targetProxy = 2CF0CBB6729DC8988FEE6600324741FA /* PBXContainerItemProxy */;
+		};
+		CDFDFCFC0C42AC57465F26136A09C6CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 45F78BB0162674788FDEF0FA58464AC8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0C9E6CD8624D6EB2DC6B00A766B30E2D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9E06533E6CF62D5082FB73BB9E60C02 /* WMPageController.release.xcconfig */;
+			baseConfigurationReference = E09E6BFCAB4627A475D84F9A8C9B23C0 /* WMPageController.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -852,7 +888,7 @@
 		};
 		6B97B84C63A7DE26EB1CC72BB24DBF0F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2A57417713D9B0C15537207EFCFBEE2 /* JSONModel.debug.xcconfig */;
+			baseConfigurationReference = 2AE533AC2EC37EB60FB60D1746A83464 /* JSONModel.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -939,7 +975,7 @@
 		};
 		8AEEA5CC30001CB70A788717A32DBAB7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFC0D3A9071F7856A1E5E0120D179889 /* Masonry.release.xcconfig */;
+			baseConfigurationReference = 9486363FC3C12B72FDC21D8AD1A5F517 /* Masonry.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -984,7 +1020,7 @@
 		};
 		C7CC2DE2FB6BB1F83A622C323E62497D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 307361437228F6C387F782374F17838E /* WMPageController.debug.xcconfig */;
+			baseConfigurationReference = 6053D33DC478CDD93FCCD8CFD5273B2E /* WMPageController.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1007,7 +1043,7 @@
 		};
 		F2A351D9ED31F9CC31039A57A6B05E00 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 905E150D5A04746D6DE409D9FB42C4D3 /* BaiduMapKit.release.xcconfig */;
+			baseConfigurationReference = 1681B316FA529BDFEAB29621FBBF24E7 /* BaiduMapKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1024,7 +1060,7 @@
 		};
 		F5DAD2FF8184E5AF2B69A5E1A2755DDE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17A58312C64BAADA7B623C0F10726E70 /* JSONModel.release.xcconfig */;
+			baseConfigurationReference = 15557BCBB60697B69BE104D39B3AA809 /* JSONModel.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1048,7 +1084,7 @@
 		};
 		F99870D874C7FA838E84D9C55C010CF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDA30E5732D32E871A9229B3C56569B9 /* Masonry.debug.xcconfig */;
+			baseConfigurationReference = 235D7FA9C6CDC8B7CC941E5A8CFC66EB /* Masonry.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1071,7 +1107,7 @@
 		};
 		FECC896AE77C9ADC55C8F6486B607DAC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83B8B3F41647C0ED583872CFB1E2D817 /* BaiduMapKit.debug.xcconfig */;
+			baseConfigurationReference = A029470C39959D1CF6BD7FECA7919544 /* BaiduMapKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
