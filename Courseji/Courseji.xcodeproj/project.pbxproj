@@ -129,6 +129,7 @@
 		FBC35B5525ED0B4A009F0A4D /* ThemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC35B4825ED0B4A009F0A4D /* ThemeViewController.m */; };
 		FBC35B5625ED0B4A009F0A4D /* StartTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC35B4925ED0B4A009F0A4D /* StartTimeViewController.m */; };
 		FBC35B5725ED0B4A009F0A4D /* TimeLimitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC35B4B25ED0B4A009F0A4D /* TimeLimitViewController.m */; };
+		FBC35B6C25EE4562009F0A4D /* 线性春.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC35B6B25EE4562009F0A4D /* 线性春.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -353,6 +354,7 @@
 		FBC35B4C25ED0B4A009F0A4D /* ExplainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplainViewController.h; sourceTree = "<group>"; };
 		FBC35B4D25ED0B4A009F0A4D /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		FBC35B4E25ED0B4A009F0A4D /* ThemeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeViewController.h; sourceTree = "<group>"; };
+		FBC35B6B25EE4562009F0A4D /* 线性春.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "线性春.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -384,6 +386,7 @@
 		18AAF93F25ECE9030029F717 = {
 			isa = PBXGroup;
 			children = (
+				FBC35B6B25EE4562009F0A4D /* 线性春.png */,
 				FBC35A8725ED0AC6009F0A4D /* 0D9C918FEDB6C5E1D135675607A118D6.jpg */,
 				FBC35A8625ED0AC5009F0A4D /* 标签 (2).png */,
 				FBC35A9825ED0ACA009F0A4D /* 更多.png */,
@@ -666,10 +669,10 @@
 		FBC35AC225ED0B44009F0A4D /* STUDENT */ = {
 			isa = PBXGroup;
 			children = (
-				18AAFA4A25ED15190029F717 /* Leave */,
-				18AAFA4025ED14CC0029F717 /* Attend */,
 				FBC35AD425ED0B44009F0A4D /* EOCPerson.h */,
 				FBC35AC325ED0B44009F0A4D /* EOCPerson.m */,
+				18AAFA4A25ED15190029F717 /* Leave */,
+				18AAFA4025ED14CC0029F717 /* Attend */,
 				FBC35AC425ED0B44009F0A4D /* MainMVC */,
 				FBC35AD525ED0B44009F0A4D /* MidMVC */,
 				FBC35AE625ED0B44009F0A4D /* PersonalMVC */,
@@ -681,8 +684,8 @@
 			isa = PBXGroup;
 			children = (
 				FBC35AC525ED0B44009F0A4D /* M */,
-				FBC35ACA25ED0B44009F0A4D /* C */,
 				FBC35AD125ED0B44009F0A4D /* V */,
+				FBC35ACA25ED0B44009F0A4D /* C */,
 			);
 			path = MainMVC;
 			sourceTree = "<group>";
@@ -714,8 +717,8 @@
 		FBC35AD125ED0B44009F0A4D /* V */ = {
 			isa = PBXGroup;
 			children = (
-				FBC35AD225ED0B44009F0A4D /* MainView.m */,
 				FBC35AD325ED0B44009F0A4D /* MainView.h */,
+				FBC35AD225ED0B44009F0A4D /* MainView.m */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -761,8 +764,8 @@
 			isa = PBXGroup;
 			children = (
 				FBC35AE725ED0B44009F0A4D /* M */,
-				FBC35AF825ED0B44009F0A4D /* C */,
 				FBC35B1125ED0B44009F0A4D /* V */,
+				FBC35AF825ED0B44009F0A4D /* C */,
 			);
 			path = PersonalMVC;
 			sourceTree = "<group>";
@@ -798,9 +801,9 @@
 				FBC35AFB25ED0B44009F0A4D /* PersonalViewController.h */,
 				FBC35AFC25ED0B44009F0A4D /* InformationViewController.h */,
 				FBC35AFD25ED0B44009F0A4D /* AboutTableViewController.m */,
+				FBC35B1025ED0B44009F0A4D /* PersonalViewController.m */,
 				FBC35AFE25ED0B44009F0A4D /* M */,
 				FBC35B0125ED0B44009F0A4D /* C */,
-				FBC35B1025ED0B44009F0A4D /* PersonalViewController.m */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -847,10 +850,9 @@
 		FBC35B3925ED0B4A009F0A4D /* TEACHER */ = {
 			isa = PBXGroup;
 			children = (
+				FBC35B6725EE4313009F0A4D /* TeacherRelease */,
 				18AAFA9B25ED160A0029F717 /* TeacherAttend */,
 				18AAFA8B25ED16090029F717 /* TeacherLeave */,
-				FBC35B3A25ED0B4A009F0A4D /* M */,
-				FBC35B3F25ED0B4A009F0A4D /* C */,
 			);
 			path = TEACHER;
 			sourceTree = "<group>";
@@ -869,8 +871,8 @@
 		FBC35B3F25ED0B4A009F0A4D /* C */ = {
 			isa = PBXGroup;
 			children = (
-				FBC35B4025ED0B4A009F0A4D /* LaunchViewController.m */,
 				FBC35B4125ED0B4A009F0A4D /* LaunchViewController.h */,
+				FBC35B4025ED0B4A009F0A4D /* LaunchViewController.m */,
 				FBC35B4225ED0B4A009F0A4D /* C */,
 			);
 			path = C;
@@ -893,6 +895,15 @@
 				FBC35B4E25ED0B4A009F0A4D /* ThemeViewController.h */,
 			);
 			path = C;
+			sourceTree = "<group>";
+		};
+		FBC35B6725EE4313009F0A4D /* TeacherRelease */ = {
+			isa = PBXGroup;
+			children = (
+				FBC35B3A25ED0B4A009F0A4D /* M */,
+				FBC35B3F25ED0B4A009F0A4D /* C */,
+			);
+			path = TeacherRelease;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1030,6 +1041,7 @@
 				18AAFAD425ED16BB0029F717 /* 确定保存2.png in Resources */,
 				18AAFACD25ED16BB0029F717 /* 添加照片.png in Resources */,
 				FBC35AB325ED0ACD009F0A4D /* 更多.png in Resources */,
+				FBC35B6C25EE4562009F0A4D /* 线性春.png in Resources */,
 				FBC35AA325ED0ACD009F0A4D /* xiangqing.jpeg in Resources */,
 				FBC35AA925ED0ACD009F0A4D /* youjiantou.png in Resources */,
 				FBC35AAE25ED0ACD009F0A4D /* shizhong (1).png in Resources */,

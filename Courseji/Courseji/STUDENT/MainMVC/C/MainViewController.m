@@ -28,8 +28,8 @@
 }
 - (void)setNav {
     UITabBarItem* tabBarItem = [UITabBarItem new];
-//    tabBarItem.image = [[UIImage imageNamed:@"xiazai.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-//    tabBarItem.selectedImage = [[UIImage imageNamed:@"xiazai.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarItem.image = [[UIImage imageNamed:@"线性春.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarItem.selectedImage = [[UIImage imageNamed:@"线性春.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     tabBarItem.title = @"主界面";
     self.tabBarItem = tabBarItem;
     

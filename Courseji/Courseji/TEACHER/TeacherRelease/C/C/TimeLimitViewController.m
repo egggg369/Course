@@ -49,7 +49,7 @@
     self.customLabel.textColor = [UIColor blackColor];
     self.customLabel.font = [UIFont systemFontOfSize:19];
     [self.view addSubview:self.customLabel];
-    
+    //1
     self.twoMinuteButton = [UIButton buttonWithType:UIButtonTypeCustom];
     self.fiveMinuteButton = [UIButton buttonWithType:UIButtonTypeCustom];
     self.tenMinuteButton = [UIButton buttonWithType:UIButtonTypeCustom];
