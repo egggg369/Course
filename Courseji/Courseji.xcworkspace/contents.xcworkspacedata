@@ -1,6 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:Courseji/STUDENT/Attend/AttendC/frameworks/&#x57fa;&#x7840;&#x5730;&#x56fe;"
+      name = "&#x57fa;&#x7840;&#x5730;&#x56fe;">
+      <Group
+         location = "group:thirdlibs"
+         name = "thirdlibs">
+      </Group>
+      <Group
+         location = "group:BaiduMapAPI_Utils.framework"
+         name = "BaiduMapAPI_Utils.framework">
+         <FileRef
+            location = "group:BaiduMapAPI_Utils">
+         </FileRef>
+         <Group
+            location = "group:Headers"
+            name = "Headers">
+            <FileRef
+               location = "group:BMKOpenRoute.h">
+            </FileRef>
+            <FileRef
+               location = "group:BMKOpenPoi.h">
+            </FileRef>
+            <FileRef
+               location = "group:BMKOpenPoiOption.h">
+            </FileRef>
+            <FileRef
+               location = "group:BMKFavPoiInfo.h">
+            </FileRef>
+            <FileRef
+               location = "group:BMKUtilsVersion.h">
+            </FileRef>
+            <FileRef
+               location = "group:BMKOpenRouteOption.h">
+            </FileRef>
+            <FileRef
+               location = "group:BMKUtilsComponent.h">
+            </FileRef>
+            <FileRef
+               location = "group:BMKGeometry.h">
+            </FileRef>
+            <FileRef
+               location = "group:BMKOpenOption.h">
+            </FileRef>
+            <FileRef
+               location = "group:BMKOpenPanorama.h">
+            </FileRef>
+            <FileRef
+               location = "group:BMKFavPoiManager.h">
+            </FileRef>
+            <FileRef
+               location = "group:BMKNavigation.h">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Modules"
+            name = "Modules">
+            <FileRef
+               location = "group:module.modulemap">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:BaiduMapAPI_Cloud.framework"
+         name = "BaiduMapAPI_Cloud.framework">
+         <Group
+            location = "group:Headers"
+            name = "Headers">
+            <FileRef
+               location = "group:BMKCloudPOIList.h">
+            </FileRef>
+            <FileRef
+               location = "group:BMKCloudVersion.h">
+            </FileRef>
+            <FileRef
+               location = "group:BMKCloudSearch.h">
+            </FileRef>
+            <FileRef
+               location = "group:BMKCloudSearchInfo.h">
+            </FileRef>
+            <FileRef
+               location = "group:BMKCloudSearchComponent.h">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:BaiduMapAPI_Cloud">
+         </FileRef>
+         <Group
+            location = "group:Modules"
+            name = "Modules">
+            <FileRef
+               location = "group:module.modulemap">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
    <FileRef
       location = "group:Courseji.xcodeproj">
    </FileRef>
