@@ -18,11 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     _teacherApproveView = [[TeacherApproveView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     
-    [_teacherApproveView.approveBtn addTarget:self action:@selector(down) forControlEvents:UIControlEventTouchUpInside];
-    
     [_teacherApproveView viewInit];
+    [_teacherApproveView.approveBtn addTarget:self action:@selector(down) forControlEvents:UIControlEventTouchUpInside];
     
     _teacherApproveView.titleImage.image = [UIImage imageNamed:@"图像2.jpg"];
     _teacherApproveView.nameLabel.text = @"李明";
@@ -45,6 +46,8 @@
 //    _approveBtn.layer.masksToBounds = YES;
 //    _approveBtn.layer.cornerRadius = 20;
 //    [self.teacherApproveView addSubview:_approveBtn];
+    _teacherApproveView.approveBtn.backgroundColor = [UIColor grayColor];
+    [_teacherApproveView.approveBtn setTitle:@"已批准" forState:UIControlStateNormal];
 }
 
 /*

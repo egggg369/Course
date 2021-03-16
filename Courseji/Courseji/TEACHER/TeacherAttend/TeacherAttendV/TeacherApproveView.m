@@ -7,6 +7,7 @@
 //
 
 #import "TeacherApproveView.h"
+#import <Masonry.h>
 
 @implementation TeacherApproveView
 
@@ -137,7 +138,7 @@
     [self  addSubview:_strLabel];
     
     _approveBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    _approveBtn.frame = CGRectMake(35, 450, 355, 60);
+    //_approveBtn.frame = CGRectMake(35, 450, 355, 60);
     _approveBtn.backgroundColor = [UIColor colorWithRed:0.18f green:0.52f blue:0.77f alpha:1.00f];
     [_approveBtn setTitle:@"批准" forState:UIControlStateNormal];
     [_approveBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
@@ -145,6 +146,12 @@
     _approveBtn.layer.masksToBounds = YES;
     _approveBtn.layer.cornerRadius = 20;
     [self addSubview:_approveBtn];
+    [_approveBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.equalTo(self);
+        make.width.mas_equalTo(self.frame.size.width - 50);
+        make.height.mas_equalTo(60);
+        make.top.equalTo(self.reasonLabel.mas_bottom).mas_offset(80);
+    }];
 }
 
 /*
