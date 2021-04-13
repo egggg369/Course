@@ -31,6 +31,7 @@
     }
     return self;
 }
+ 
 
 //- (instancetype)initWithFrame:(CGRect)frame atPostiion:(LegendPosition)legendPostion withNameArray:(NSArray *)nameArray andInsideDataArray:(NSArray *)insideArray andOutsideDataArray:(NSArray *)outsideArray {
 //    self = [super initWithFrame:frame];

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -86,7 +86,6 @@
 		FBC35AB925ED0ACD009F0A4D /* 开始时间1.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC35A9E25ED0ACC009F0A4D /* 开始时间1.png */; };
 		FBC35ABA25ED0ACD009F0A4D /* hh2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FBC35A9F25ED0ACD009F0A4D /* hh2.jpeg */; };
 		FBC35ABB25ED0ACD009F0A4D /* jiahao.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC35AA025ED0ACD009F0A4D /* jiahao.png */; };
-		FBC35B1425ED0B44009F0A4D /* EOCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC35AC325ED0B44009F0A4D /* EOCPerson.m */; };
 		FBC35B1525ED0B44009F0A4D /* MoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC35AC825ED0B44009F0A4D /* MoreTableViewCell.m */; };
 		FBC35B1625ED0B44009F0A4D /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC35AC925ED0B44009F0A4D /* MainModel.m */; };
 		FBC35B1725ED0B44009F0A4D /* WeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC35ACB25ED0B44009F0A4D /* WeekViewController.m */; };
@@ -268,7 +267,6 @@
 		FBC35A9E25ED0ACC009F0A4D /* 开始时间1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开始时间1.png"; sourceTree = "<group>"; };
 		FBC35A9F25ED0ACD009F0A4D /* hh2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hh2.jpeg; sourceTree = "<group>"; };
 		FBC35AA025ED0ACD009F0A4D /* jiahao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jiahao.png; sourceTree = "<group>"; };
-		FBC35AC325ED0B44009F0A4D /* EOCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCPerson.m; sourceTree = "<group>"; };
 		FBC35AC625ED0B44009F0A4D /* MoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreTableViewCell.h; sourceTree = "<group>"; };
 		FBC35AC725ED0B44009F0A4D /* MainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
 		FBC35AC825ED0B44009F0A4D /* MoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreTableViewCell.m; sourceTree = "<group>"; };
@@ -281,7 +279,6 @@
 		FBC35AD025ED0B44009F0A4D /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
 		FBC35AD225ED0B44009F0A4D /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 		FBC35AD325ED0B44009F0A4D /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
-		FBC35AD425ED0B44009F0A4D /* EOCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCPerson.h; sourceTree = "<group>"; };
 		FBC35AD725ED0B44009F0A4D /* TimeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeTableViewCell.h; sourceTree = "<group>"; };
 		FBC35AD825ED0B44009F0A4D /* TeacherTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherTableViewCell.m; sourceTree = "<group>"; };
 		FBC35AD925ED0B44009F0A4D /* SignTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignTableViewCell.m; sourceTree = "<group>"; };
@@ -669,8 +666,6 @@
 		FBC35AC225ED0B44009F0A4D /* STUDENT */ = {
 			isa = PBXGroup;
 			children = (
-				FBC35AD425ED0B44009F0A4D /* EOCPerson.h */,
-				FBC35AC325ED0B44009F0A4D /* EOCPerson.m */,
 				18AAFA4A25ED15190029F717 /* Leave */,
 				18AAFA4025ED14CC0029F717 /* Attend */,
 				FBC35AC425ED0B44009F0A4D /* MainMVC */,
@@ -917,7 +912,7 @@
 				18AAF94425ECE9030029F717 /* Sources */,
 				18AAF94525ECE9030029F717 /* Frameworks */,
 				18AAF94625ECE9030029F717 /* Resources */,
-				F49F50011D1BE2C355CEC97F /* [CP] Copy Pods Resources */,
+				5DC9CFB56C5A64C0CAAF720A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1098,7 +1093,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F49F50011D1BE2C355CEC97F /* [CP] Copy Pods Resources */ = {
+		5DC9CFB56C5A64C0CAAF720A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1122,7 +1117,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBC35B1425ED0B44009F0A4D /* EOCPerson.m in Sources */,
 				FBC35B2A25ED0B44009F0A4D /* InformationViewController.m in Sources */,
 				18AAFA6C25ED15CA0029F717 /* DetailViewController.m in Sources */,
 				18AAFA6825ED15CA0029F717 /* LeaveViewController.m in Sources */,

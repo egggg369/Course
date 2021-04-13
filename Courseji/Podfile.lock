@@ -1,4 +1,19 @@
 PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
   - BaiduMapKit (6.0.0):
     - BaiduMapKit/Base (= 6.0.0)
     - BaiduMapKit/Cloud (= 6.0.0)
@@ -19,26 +34,28 @@ PODS:
   - WMPageController (2.5.2)
 
 DEPENDENCIES:
+  - AFNetworking
   - BaiduMapKit (= 6.0.0)
   - BaiduMapKit/Map (= 6.0.0)
-  - BaiduMapKit/Search (= 6.0.0)
   - JSONModel
   - Masonry
   - WMPageController
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
     - BaiduMapKit
     - JSONModel
     - Masonry
     - WMPageController
 
 SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   BaiduMapKit: e21e4c72533f263aa3c73e3b0ea13b37e7038f62
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
 
-PODFILE CHECKSUM: ab4f93b937d6d6b684b122cf9b6a3daa9dd571e2
+PODFILE CHECKSUM: bbe885ebcf8f2ccd981708a409c2a220a926d196
 
 COCOAPODS: 1.9.3

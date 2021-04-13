@@ -3,7 +3,7 @@ target 'Courseji' do
 pod 'JSONModel'
 pod 'Masonry'
 pod 'WMPageController'
+pod 'AFNetworking'
 pod 'BaiduMapKit', '6.0.0'
-pod 'BaiduMapKit/Search', '6.0.0'
 pod 'BaiduMapKit/Map', '6.0.0'
 end
