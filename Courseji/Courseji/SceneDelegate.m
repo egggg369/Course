@@ -48,6 +48,32 @@
             
     nav1.navigationBarHidden = YES;
     
+    nav1.view.backgroundColor = [UIColor whiteColor];
+    nav2.view.backgroundColor = [UIColor whiteColor];
+    nav3.view.backgroundColor = [UIColor whiteColor];
+    nav4.view.backgroundColor = [UIColor whiteColor];
+    
+    UITabBarItem* tabBarItem2 = [UITabBarItem new];
+    tabBarItem2.image = [[UIImage imageNamed:@"线性春.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarItem2.selectedImage = [[UIImage imageNamed:@"线性春.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    UITabBarItem* tabBarItem3 = [UITabBarItem new];
+    tabBarItem3.image = [[UIImage imageNamed:@"线性春.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarItem3.selectedImage = [[UIImage imageNamed:@"线性春.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    UITabBarItem* tabBarItem4 = [UITabBarItem new];
+    tabBarItem4.image = [[UIImage imageNamed:@"线性春.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarItem4.selectedImage = [[UIImage imageNamed:@"线性春.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    nav2.tabBarItem = tabBarItem2;
+    nav2.navigationController.title = @"签到";
+
+    nav3.tabBarItem = tabBarItem3;
+    nav3.navigationController.title = @"个人中心";
+    
+    nav4.tabBarItem = tabBarItem4;
+    nav4.navigationController.title = @"发起签到";
+    
     KaoqinViewController* vc = [[KaoqinViewController alloc] init];
     UINavigationController* countnav = [[UINavigationController alloc] initWithRootViewController:vc];
     
@@ -59,12 +85,9 @@
     teachernav.title = @"教师端";
     countnav.title = @"学生端";
     
-//    UITabBarController *tbController = [[UITabBarController alloc] init];
-//    tbController.tabBar.translucent = NO;
-//    NSArray *arrayVC = [NSArray arrayWithObjects:countnav, teachernav, nil];
-//    tbController.viewControllers = arrayVC;
-//    self.window.rootViewController = tbController;
-    
+    nav2.title = @"签到";
+    nav3.title = @"个人中心";
+    nav4.title = @"发起签到";
     //创建分栏控制器
     UITabBarController* tbController = [UITabBarController new];
     tbController.tabBar.barTintColor = [UIColor whiteColor];
@@ -74,6 +97,7 @@
     self.window.rootViewController = tbController;
     tbController.tabBar.translucent = YES;  //不透明
     [self.window makeKeyAndVisible];
+
 }
 
 
