@@ -277,11 +277,13 @@
 
 - (void) leave {
     //QingjiaViewController *qingjia = [[QingjiaViewController alloc] init];
-    XinxiTableViewCell *xinxicell = [[XinxiTableViewCell alloc] init];
-    //[self.tableView1 reloadData];
-    NSLog(@"%@",xinxicell.nametextField.text);
-    [self.Array addObject:xinxicell.nametextField.text];
-    NSLog(@"%@",self.Array[0]);
+//    XinxiTableViewCell *xinxicell = [[XinxiTableViewCell alloc] init];
+//    //[self.tableView1 reloadData];
+//    NSLog(@"%@",xinxicell.nametextField.text);
+//    [self.Array addObject:xinxicell.nametextField.text];
+//    NSLog(@"%@",self.Array[0]);
+    
+    [_scrollView setContentOffset:CGPointMake(self.view.frame.size.width, 0) animated:YES];
 }
 
 
