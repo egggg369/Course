@@ -8,10 +8,11 @@
 #import <UIKit/UIKit.h>
 #import <BaiduMapAPI_Base/BMKBaseComponent.h>
 #import <BaiduMapAPI_Map/BMKMapComponent.h>
+#import <BMKLocationKit/BMKLocationComponent.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MapViewController : UIViewController
-<BMKMapViewDelegate>
+<BMKMapViewDelegate, BMKLocationManagerDelegate, BMKLocationAuthDelegate>
 @property (nonatomic, strong) BMKMapView *mapView; 
 @end
 

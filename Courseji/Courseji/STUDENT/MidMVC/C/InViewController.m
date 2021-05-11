@@ -27,6 +27,7 @@
     [self.navigationItem setLeftBarButtonItem:backButton];
 }
 - (void)pressBack {
+    [self.delegate passTimerTag:self.timerTag];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 - (NSInteger)getDateDifferenceWithNowDateStr:(NSString*)nowDateStr deadlineStr:(NSString*)deadlineStr {
@@ -70,6 +71,7 @@
     self.timeLabel.text = nil;
     self.textLabel.text = @"当前签到已完成";
     self.textLabel.textColor = [UIColor greenColor];
+    self.timerTag = 2;
     [self.activeTimer invalidate];
     _activeTimer = nil;
 }
@@ -88,11 +90,13 @@
         self.textLabel.textColor = [UIColor colorWithRed:235/255.0 green:147/255.0 blue:41/255.0 alpha:1];
         self.timeLabel.text = [NSString stringWithFormat:@"%@", format_time];
         self.timeLabel.textColor = [UIColor colorWithRed:235/255.0 green:147/255.0 blue:41/255.0 alpha:1];
+        self.timerTag = 1;
     } else {
         [self.signButton removeFromSuperview];
         self.timeLabel.text = nil;
         self.textLabel.text = @"当前签到已结束";
         self.textLabel.textColor = [UIColor redColor];
+        self.timerTag = 0;
         [_activeTimer invalidate];
         _activeTimer = nil;
         return;

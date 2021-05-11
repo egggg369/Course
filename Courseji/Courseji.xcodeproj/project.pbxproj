@@ -699,12 +699,12 @@
 		FBC35ACA25ED0B44009F0A4D /* C */ = {
 			isa = PBXGroup;
 			children = (
-				FBC35ACB25ED0B44009F0A4D /* WeekViewController.m */,
-				FBC35ACC25ED0B44009F0A4D /* MoreViewController.m */,
-				FBC35ACD25ED0B44009F0A4D /* MainViewController.m */,
 				FBC35ACE25ED0B44009F0A4D /* WeekViewController.h */,
-				FBC35ACF25ED0B44009F0A4D /* MainViewController.h */,
+				FBC35ACB25ED0B44009F0A4D /* WeekViewController.m */,
 				FBC35AD025ED0B44009F0A4D /* MoreViewController.h */,
+				FBC35ACC25ED0B44009F0A4D /* MoreViewController.m */,
+				FBC35ACF25ED0B44009F0A4D /* MainViewController.h */,
+				FBC35ACD25ED0B44009F0A4D /* MainViewController.m */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -745,12 +745,12 @@
 		FBC35ADF25ED0B44009F0A4D /* C */ = {
 			isa = PBXGroup;
 			children = (
+				FBC35AE225ED0B44009F0A4D /* MidViewController.h */,
+				FBC35AE525ED0B44009F0A4D /* MidViewController.m */,
+				FBC35AE325ED0B44009F0A4D /* InViewController.h */,
 				FBC35AE025ED0B44009F0A4D /* InViewController.m */,
 				FBC35AE125ED0B44009F0A4D /* DetailsViewController.h */,
-				FBC35AE225ED0B44009F0A4D /* MidViewController.h */,
-				FBC35AE325ED0B44009F0A4D /* InViewController.h */,
 				FBC35AE425ED0B44009F0A4D /* DetailsViewController.m */,
-				FBC35AE525ED0B44009F0A4D /* MidViewController.m */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -791,11 +791,11 @@
 		FBC35AF825ED0B44009F0A4D /* C */ = {
 			isa = PBXGroup;
 			children = (
+				FBC35AFC25ED0B44009F0A4D /* InformationViewController.h */,
 				FBC35AF925ED0B44009F0A4D /* InformationViewController.m */,
 				FBC35AFA25ED0B44009F0A4D /* AboutTableViewController.h */,
-				FBC35AFB25ED0B44009F0A4D /* PersonalViewController.h */,
-				FBC35AFC25ED0B44009F0A4D /* InformationViewController.h */,
 				FBC35AFD25ED0B44009F0A4D /* AboutTableViewController.m */,
+				FBC35AFB25ED0B44009F0A4D /* PersonalViewController.h */,
 				FBC35B1025ED0B44009F0A4D /* PersonalViewController.m */,
 				FBC35AFE25ED0B44009F0A4D /* M */,
 				FBC35B0125ED0B44009F0A4D /* C */,
@@ -818,16 +818,16 @@
 				FBC35B0225ED0B44009F0A4D /* SuggestViewController.m */,
 				FBC35B0325ED0B44009F0A4D /* BigPictureViewController.m */,
 				FBC35B0425ED0B44009F0A4D /* PictureViewController.h */,
+				FBC35B0B25ED0B44009F0A4D /* PictureViewController.m */,
 				FBC35B0525ED0B44009F0A4D /* SexViewController.m */,
 				FBC35B0625ED0B44009F0A4D /* DescriptViewController.m */,
 				FBC35B0725ED0B44009F0A4D /* MypictureViewController.h */,
+				FBC35B0E25ED0B44009F0A4D /* MypictureViewController.m */,
 				FBC35B0825ED0B44009F0A4D /* NationViewController.h */,
 				FBC35B0925ED0B44009F0A4D /* SuggestViewController.h */,
 				FBC35B0A25ED0B44009F0A4D /* SexViewController.h */,
-				FBC35B0B25ED0B44009F0A4D /* PictureViewController.m */,
 				FBC35B0C25ED0B44009F0A4D /* BigPictureViewController.h */,
 				FBC35B0D25ED0B44009F0A4D /* NationViewController.m */,
-				FBC35B0E25ED0B44009F0A4D /* MypictureViewController.m */,
 				FBC35B0F25ED0B44009F0A4D /* DescriptViewController.h */,
 			);
 			path = C;
@@ -879,6 +879,7 @@
 				FBC35B4325ED0B4A009F0A4D /* TimeLimitViewController.h */,
 				FBC35B4425ED0B4A009F0A4D /* ListViewController.m */,
 				FBC35B4525ED0B4A009F0A4D /* StartTimeViewController.h */,
+				FBC35B4D25ED0B4A009F0A4D /* MapViewController.h */,
 				FBC35B4625ED0B4A009F0A4D /* MapViewController.m */,
 				FBC35B4725ED0B4A009F0A4D /* ExplainViewController.m */,
 				FBC35B4825ED0B4A009F0A4D /* ThemeViewController.m */,
@@ -886,7 +887,6 @@
 				FBC35B4A25ED0B4A009F0A4D /* ListViewController.h */,
 				FBC35B4B25ED0B4A009F0A4D /* TimeLimitViewController.m */,
 				FBC35B4C25ED0B4A009F0A4D /* ExplainViewController.h */,
-				FBC35B4D25ED0B4A009F0A4D /* MapViewController.h */,
 				FBC35B4E25ED0B4A009F0A4D /* ThemeViewController.h */,
 			);
 			path = C;
@@ -1295,7 +1295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1347,7 +1347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1377,7 +1377,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "--.Courseji";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.keji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1405,7 +1405,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "--.Courseji";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.keji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

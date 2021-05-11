@@ -3,6 +3,13 @@ target 'Courseji' do
 pod 'JSONModel'
 pod 'Masonry'
 pod 'WMPageController'
+<<<<<<< HEAD
 pod 'AFNetworking'
 pod 'BaiduMapKit'
+=======
+pod 'BaiduMapKit', '6.0.0'
+pod 'BaiduMapKit/Search', '6.0.0'
+pod 'BaiduMapKit/Map', '6.0.0'
+pod 'BMKLocationKit'
+>>>>>>> main_wangxu
 end

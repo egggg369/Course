@@ -8,7 +8,11 @@
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
+@protocol tagPassDelegate <NSObject>
 
+- (void)passTimerTag:(int)number;
+
+@end
 @interface InViewController : UIViewController
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSString *startStr;
@@ -18,7 +22,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UILabel *textLabel;
 @property (nonatomic, strong) UIButton *signButton;
 @property NSInteger secondsCountDown;
-
+@property int timerTag;
+@property (nonatomic, assign) id<tagPassDelegate>delegate;
 @end
 
 NS_ASSUME_NONNULL_END
