@@ -120,7 +120,9 @@
     [self presentViewController:nav animated:YES completion:nil];
 }
 - (void)sign {
-    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:nil message:@"发起成功" preferredStyle:UIAlertControllerStyleAlert];
+     [self presentViewController:alert animated:YES completion:nil];
+     [self performSelector:@selector(dismiss:) withObject:alert afterDelay:2.0];
 }
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 2;
@@ -220,7 +222,6 @@
         } else if (indexPath.row == 1) {
             ExplainViewController *viewController = [[ExplainViewController alloc] init];
             viewController.delegate = self;
-//            viewController.textField.text = self.shuomingString;
             UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:viewController];
             nav.title = nil;
             nav.modalPresentationStyle = 0;

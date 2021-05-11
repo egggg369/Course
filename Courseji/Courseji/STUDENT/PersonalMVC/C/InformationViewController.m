@@ -41,10 +41,15 @@
     [self setUI];
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    
+    [self.view endEditing:YES];
 }
 - (void)pressSure {
-    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:nil message:@"提交完成" preferredStyle:UIAlertControllerStyleAlert];
+     [self presentViewController:alert animated:YES completion:nil];
+     [self performSelector:@selector(dismiss:) withObject:alert afterDelay:2.0];
+}
+- (void)dismiss:(UIAlertController *)alert {
+    [alert dismissViewControllerAnimated:YES completion:nil];
 }
 - (void)setUI{
     self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(10, 50, self.view.frame.size.width - 20, self.view.frame.size.height * 0.5) style:UITableViewStylePlain];
@@ -78,16 +83,19 @@
         if (indexPath.row == 0) {
             InformationFirstTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell1" forIndexPath:indexPath];
             cell.mainImageview.image = self.imageStr.image;
+            cell.selectionStyle = UITableViewCellSeparatorStyleNone;
             return cell;
         } else if (indexPath.row == 1) {
             InformationThirdTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell3" forIndexPath:indexPath];
             cell.mainLabel.text = @"姓名";
             cell.strLabel.text = self.nameStr;
+            cell.selectionStyle = UITableViewCellSeparatorStyleNone;
             return cell;
         } else if (indexPath.row == 2) {
             InformationThirdTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell3" forIndexPath:indexPath];
             cell.mainLabel.text = @"身份证";
             cell.strLabel.text = self.IDStr;
+            cell.selectionStyle = UITableViewCellSeparatorStyleNone;
             return cell;
         } else if (indexPath.row == 3) {
             InformationThirdTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell3" forIndexPath:indexPath];
@@ -100,17 +108,20 @@
                 cell.strLabel.textColor = [UIColor blackColor];
             }
             [cell.mainImageView setImage:[UIImage imageNamed:@"youjiantou.png"]];
+            cell.selectionStyle = UITableViewCellSeparatorStyleNone;
             return cell;
         } else if (indexPath.row == 4) {
             InformationSecondTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell2" forIndexPath:indexPath];
             cell.mainLabel.text = @"专业";
             cell.mainTextField.placeholder = @"请输入专业名称";
+            cell.selectionStyle = UITableViewCellSeparatorStyleNone;
             return cell;
         } else if (indexPath.row == 5) {
             InformationThirdTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell3" forIndexPath:indexPath];
             cell.mainLabel.text = @"描述";
             cell.strLabel.text = self.descriStr;
             [cell.mainImageView setImage:[UIImage imageNamed:@"youjiantou.png"]];
+            cell.selectionStyle = UITableViewCellSeparatorStyleNone;
             return cell;
         } else if (indexPath.row == 6) {
             InformationThirdTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell3" forIndexPath:indexPath];
@@ -123,6 +134,7 @@
                 cell.strLabel.textColor = [UIColor blackColor];
             }
             [cell.mainImageView setImage:[UIImage imageNamed:@"youjiantou.png"]];
+            cell.selectionStyle = UITableViewCellSeparatorStyleNone;
             return cell;
         }
     }
@@ -138,10 +150,24 @@
             [self presentViewController:viewController animated:YES completion:nil];
         }
         if (indexPath.row == 3) {
-            SexViewController *viewController = [[SexViewController alloc] init];
-            viewController.delegate = self;
-            viewController.modalPresentationStyle = UIModalPresentationCustom;
-            [self presentViewController:viewController animated:YES completion:nil];
+            UIAlertController *sexSheetController = [[UIAlertController alloc] init];
+            UIAlertAction *boyAction = [UIAlertAction actionWithTitle:@"男" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                self.sexStr = @"男";
+                self.isSex = YES;
+                [self.tableView reloadData];
+            }];
+            UIAlertAction *girlAction = [UIAlertAction actionWithTitle:@"女" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                self.sexStr = @"女";
+                self.isSex = YES;
+                [self.tableView reloadData];
+            }];
+            UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
+            
+            [sexSheetController addAction:boyAction];
+            [sexSheetController addAction:girlAction];
+            [sexSheetController addAction:cancelAction];
+            
+            [self presentViewController:sexSheetController animated:YES completion:nil];
         } else if (indexPath.row == 5) {
             DescriptViewController *viewController = [[DescriptViewController alloc] init];
             UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:viewController];
@@ -149,10 +175,24 @@
             nav.modalPresentationStyle = UIModalPresentationCustom;
             [self presentViewController:nav animated:YES completion:nil];
         } else if (indexPath.row == 6) {
-            NationViewController *viewController = [[NationViewController alloc] init];
-            viewController.delegate = self;
-            viewController.modalPresentationStyle = UIModalPresentationCustom;
-            [self presentViewController:viewController animated:YES completion:nil];
+            UIAlertController *nationSheetController = [[UIAlertController alloc] init];
+            UIAlertAction *mainAction = [UIAlertAction actionWithTitle:@"汉族" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                self.nationStr = @"汉族";
+                self.isNation = YES;
+                [self.tableView reloadData];
+            }];
+            UIAlertAction *otherAction = [UIAlertAction actionWithTitle:@"其他" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                self.nationStr = @"其他";
+                self.isNation = YES;
+                [self.tableView reloadData];
+            }];
+            UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
+            
+            [nationSheetController addAction:mainAction];
+            [nationSheetController addAction:otherAction];
+            [nationSheetController addAction:cancelAction];
+            
+            [self presentViewController:nationSheetController animated:YES completion:nil];
         }
     }
 }

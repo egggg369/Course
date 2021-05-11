@@ -8,6 +8,7 @@
 #define doneColor [UIColor colorWithRed:110/255.0 green:112/255.0 blue:125/255.0 alpha:1];
 #define okColor [UIColor colorWithRed:107/255.0 green:175/255.0 blue:23/255.0 alpha:1];
 
+// 0对应done 1对应ing 2对应ok
 #import "MidViewController.h"
 #import "SignTableViewCell.h"
 #import "DetailsViewController.h"
@@ -21,6 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor colorWithRed:240/255.0 green:240/255.0 blue:246/255.0 alpha:1];
+    self.tempTag = 1;
     [self setStr];
     [self setNav];
     [self setUI];
@@ -42,7 +44,7 @@
 }
 - (void)setStr {
     self.startTimeStr = @"2020-12-28 23:00:00";
-    self.stopTimeStr = @"2021-1-17 23:18:00";
+    self.stopTimeStr = @"2021-5-17 23:18:00";
     self.midTimeStr = @"至";
     self.connectStr = [[NSString alloc] init];
     self.connectStr = [_connectStr stringByAppendingFormat:@"%@%@%@",self.startTimeStr,self.midTimeStr,self.stopTimeStr];
@@ -73,14 +75,25 @@
     if (indexPath.section == 0) {
         SignTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"sign" forIndexPath:indexPath];
         
-        cell.colorButton.backgroundColor = ingColor;
-        cell.typeButton.backgroundColor = ingColor;
+        if (self.tempTag == 0) {
+            cell.colorButton.backgroundColor = doneColor;
+            cell.typeButton.backgroundColor = doneColor;
+            [cell.typeButton setTitle:@"已结束" forState:UIControlStateNormal];
+        } else if (self.tempTag == 1) {
+            cell.colorButton.backgroundColor = ingColor;
+            cell.typeButton.backgroundColor = ingColor;
+            [cell.typeButton setTitle:@"进行中" forState:UIControlStateNormal];
+        } else {
+            cell.colorButton.backgroundColor = okColor;
+            cell.typeButton.backgroundColor = okColor;
+            [cell.typeButton setTitle:@"已完成" forState:UIControlStateNormal];
+        }
         
         cell.signLabel.text = self.shangkeStr;
         cell.typeLabel.text = self.typeStr;
         cell.timeLabel.text = self.connectStr;
         
-        [cell.typeButton setTitle:@"进行中" forState:UIControlStateNormal];
+//        [cell.typeButton setTitle:@"进行中" forState:UIControlStateNormal];
         cell.typeButton.titleLabel.textColor = [UIColor whiteColor];
         cell.typeButton.titleLabel.font = [UIFont systemFontOfSize:15];
  
@@ -116,7 +129,12 @@
     nav.title = @"签到";
     nav.modalPresentationStyle = 0;
     viewController.stopStr = self.stopTimeStr;
+    viewController.delegate = self;
     [self presentViewController:nav animated:YES completion:nil];
+}
+- (void)passTimerTag:(int)number {
+    self.tempTag = number;
+    [self.tableView reloadData];
 }
 //235 147 41
 /*

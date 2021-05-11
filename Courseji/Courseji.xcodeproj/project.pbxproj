@@ -86,7 +86,6 @@
 		FBC35AB925ED0ACD009F0A4D /* 开始时间1.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC35A9E25ED0ACC009F0A4D /* 开始时间1.png */; };
 		FBC35ABA25ED0ACD009F0A4D /* hh2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FBC35A9F25ED0ACD009F0A4D /* hh2.jpeg */; };
 		FBC35ABB25ED0ACD009F0A4D /* jiahao.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC35AA025ED0ACD009F0A4D /* jiahao.png */; };
-		FBC35B1425ED0B44009F0A4D /* EOCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC35AC325ED0B44009F0A4D /* EOCPerson.m */; };
 		FBC35B1525ED0B44009F0A4D /* MoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC35AC825ED0B44009F0A4D /* MoreTableViewCell.m */; };
 		FBC35B1625ED0B44009F0A4D /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC35AC925ED0B44009F0A4D /* MainModel.m */; };
 		FBC35B1725ED0B44009F0A4D /* WeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC35ACB25ED0B44009F0A4D /* WeekViewController.m */; };
@@ -268,7 +267,6 @@
 		FBC35A9E25ED0ACC009F0A4D /* 开始时间1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开始时间1.png"; sourceTree = "<group>"; };
 		FBC35A9F25ED0ACD009F0A4D /* hh2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hh2.jpeg; sourceTree = "<group>"; };
 		FBC35AA025ED0ACD009F0A4D /* jiahao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jiahao.png; sourceTree = "<group>"; };
-		FBC35AC325ED0B44009F0A4D /* EOCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCPerson.m; sourceTree = "<group>"; };
 		FBC35AC625ED0B44009F0A4D /* MoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreTableViewCell.h; sourceTree = "<group>"; };
 		FBC35AC725ED0B44009F0A4D /* MainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
 		FBC35AC825ED0B44009F0A4D /* MoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreTableViewCell.m; sourceTree = "<group>"; };
@@ -281,7 +279,6 @@
 		FBC35AD025ED0B44009F0A4D /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
 		FBC35AD225ED0B44009F0A4D /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 		FBC35AD325ED0B44009F0A4D /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
-		FBC35AD425ED0B44009F0A4D /* EOCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCPerson.h; sourceTree = "<group>"; };
 		FBC35AD725ED0B44009F0A4D /* TimeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeTableViewCell.h; sourceTree = "<group>"; };
 		FBC35AD825ED0B44009F0A4D /* TeacherTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherTableViewCell.m; sourceTree = "<group>"; };
 		FBC35AD925ED0B44009F0A4D /* SignTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignTableViewCell.m; sourceTree = "<group>"; };
@@ -669,8 +666,6 @@
 		FBC35AC225ED0B44009F0A4D /* STUDENT */ = {
 			isa = PBXGroup;
 			children = (
-				FBC35AD425ED0B44009F0A4D /* EOCPerson.h */,
-				FBC35AC325ED0B44009F0A4D /* EOCPerson.m */,
 				18AAFA4A25ED15190029F717 /* Leave */,
 				18AAFA4025ED14CC0029F717 /* Attend */,
 				FBC35AC425ED0B44009F0A4D /* MainMVC */,
@@ -704,12 +699,12 @@
 		FBC35ACA25ED0B44009F0A4D /* C */ = {
 			isa = PBXGroup;
 			children = (
-				FBC35ACB25ED0B44009F0A4D /* WeekViewController.m */,
-				FBC35ACC25ED0B44009F0A4D /* MoreViewController.m */,
-				FBC35ACD25ED0B44009F0A4D /* MainViewController.m */,
 				FBC35ACE25ED0B44009F0A4D /* WeekViewController.h */,
-				FBC35ACF25ED0B44009F0A4D /* MainViewController.h */,
+				FBC35ACB25ED0B44009F0A4D /* WeekViewController.m */,
 				FBC35AD025ED0B44009F0A4D /* MoreViewController.h */,
+				FBC35ACC25ED0B44009F0A4D /* MoreViewController.m */,
+				FBC35ACF25ED0B44009F0A4D /* MainViewController.h */,
+				FBC35ACD25ED0B44009F0A4D /* MainViewController.m */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -750,12 +745,12 @@
 		FBC35ADF25ED0B44009F0A4D /* C */ = {
 			isa = PBXGroup;
 			children = (
+				FBC35AE225ED0B44009F0A4D /* MidViewController.h */,
+				FBC35AE525ED0B44009F0A4D /* MidViewController.m */,
+				FBC35AE325ED0B44009F0A4D /* InViewController.h */,
 				FBC35AE025ED0B44009F0A4D /* InViewController.m */,
 				FBC35AE125ED0B44009F0A4D /* DetailsViewController.h */,
-				FBC35AE225ED0B44009F0A4D /* MidViewController.h */,
-				FBC35AE325ED0B44009F0A4D /* InViewController.h */,
 				FBC35AE425ED0B44009F0A4D /* DetailsViewController.m */,
-				FBC35AE525ED0B44009F0A4D /* MidViewController.m */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -796,11 +791,11 @@
 		FBC35AF825ED0B44009F0A4D /* C */ = {
 			isa = PBXGroup;
 			children = (
+				FBC35AFC25ED0B44009F0A4D /* InformationViewController.h */,
 				FBC35AF925ED0B44009F0A4D /* InformationViewController.m */,
 				FBC35AFA25ED0B44009F0A4D /* AboutTableViewController.h */,
-				FBC35AFB25ED0B44009F0A4D /* PersonalViewController.h */,
-				FBC35AFC25ED0B44009F0A4D /* InformationViewController.h */,
 				FBC35AFD25ED0B44009F0A4D /* AboutTableViewController.m */,
+				FBC35AFB25ED0B44009F0A4D /* PersonalViewController.h */,
 				FBC35B1025ED0B44009F0A4D /* PersonalViewController.m */,
 				FBC35AFE25ED0B44009F0A4D /* M */,
 				FBC35B0125ED0B44009F0A4D /* C */,
@@ -823,16 +818,16 @@
 				FBC35B0225ED0B44009F0A4D /* SuggestViewController.m */,
 				FBC35B0325ED0B44009F0A4D /* BigPictureViewController.m */,
 				FBC35B0425ED0B44009F0A4D /* PictureViewController.h */,
+				FBC35B0B25ED0B44009F0A4D /* PictureViewController.m */,
 				FBC35B0525ED0B44009F0A4D /* SexViewController.m */,
 				FBC35B0625ED0B44009F0A4D /* DescriptViewController.m */,
 				FBC35B0725ED0B44009F0A4D /* MypictureViewController.h */,
+				FBC35B0E25ED0B44009F0A4D /* MypictureViewController.m */,
 				FBC35B0825ED0B44009F0A4D /* NationViewController.h */,
 				FBC35B0925ED0B44009F0A4D /* SuggestViewController.h */,
 				FBC35B0A25ED0B44009F0A4D /* SexViewController.h */,
-				FBC35B0B25ED0B44009F0A4D /* PictureViewController.m */,
 				FBC35B0C25ED0B44009F0A4D /* BigPictureViewController.h */,
 				FBC35B0D25ED0B44009F0A4D /* NationViewController.m */,
-				FBC35B0E25ED0B44009F0A4D /* MypictureViewController.m */,
 				FBC35B0F25ED0B44009F0A4D /* DescriptViewController.h */,
 			);
 			path = C;
@@ -884,6 +879,7 @@
 				FBC35B4325ED0B4A009F0A4D /* TimeLimitViewController.h */,
 				FBC35B4425ED0B4A009F0A4D /* ListViewController.m */,
 				FBC35B4525ED0B4A009F0A4D /* StartTimeViewController.h */,
+				FBC35B4D25ED0B4A009F0A4D /* MapViewController.h */,
 				FBC35B4625ED0B4A009F0A4D /* MapViewController.m */,
 				FBC35B4725ED0B4A009F0A4D /* ExplainViewController.m */,
 				FBC35B4825ED0B4A009F0A4D /* ThemeViewController.m */,
@@ -891,7 +887,6 @@
 				FBC35B4A25ED0B4A009F0A4D /* ListViewController.h */,
 				FBC35B4B25ED0B4A009F0A4D /* TimeLimitViewController.m */,
 				FBC35B4C25ED0B4A009F0A4D /* ExplainViewController.h */,
-				FBC35B4D25ED0B4A009F0A4D /* MapViewController.h */,
 				FBC35B4E25ED0B4A009F0A4D /* ThemeViewController.h */,
 			);
 			path = C;
@@ -1122,7 +1117,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBC35B1425ED0B44009F0A4D /* EOCPerson.m in Sources */,
 				FBC35B2A25ED0B44009F0A4D /* InformationViewController.m in Sources */,
 				18AAFA6C25ED15CA0029F717 /* DetailViewController.m in Sources */,
 				18AAFA6825ED15CA0029F717 /* LeaveViewController.m in Sources */,
@@ -1301,7 +1295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1353,7 +1347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1382,7 +1376,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "--.Courseji";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.keji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1409,7 +1403,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "--.Courseji";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.keji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

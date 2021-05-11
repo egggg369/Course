@@ -8,7 +8,6 @@
 #import "MainViewController.h"
 #import "MoreViewController.h"
 #import "WeekViewController.h"
-#import "EOCPerson.h"
 @interface MainViewController ()
 
 @end
@@ -23,8 +22,6 @@
     [self.view addSubview:self.mainView];
     [self.mainView.leftMoreButton addTarget:self action:@selector(pressLeft) forControlEvents:UIControlEventTouchUpInside];
     [self.mainView.rightMoreButton addTarget:self action:@selector(pressRight) forControlEvents:UIControlEventTouchUpInside];
-    EOCPerson *person = [[EOCPerson alloc] initWithFirstName:@"Bob" lastName:@"Smith"];
-    NSLog(@"person = %@",person);
 }
 - (void)setNav {
     UITabBarItem* tabBarItem = [UITabBarItem new];

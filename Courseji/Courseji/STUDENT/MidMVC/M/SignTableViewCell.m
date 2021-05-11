@@ -58,10 +58,10 @@
     self.timeLabel.font = [UIFont systemFontOfSize:14];
     self.timeLabel.textColor = [UIColor colorWithRed:119/255.0 green:119/255.0 blue:119/255.0 alpha:1];
     
-    self.detailButton.frame = CGRectMake(15, 110, 155, 30);
+    self.detailButton.frame = CGRectMake(15, 110, 160, 30);
     self.detailButton.backgroundColor = [UIColor colorWithRed:241/255.0 green:239/255.0 blue:239/255.0 alpha:1];
     
-    self.signButton.frame = CGRectMake(170, 110, 190, 30);
+    self.signButton.frame = CGRectMake(180, 110, 190, 30);
     self.signButton.backgroundColor = [UIColor colorWithRed:241/255.0 green:239/255.0 blue:239/255.0 alpha:1];
 }
 @end

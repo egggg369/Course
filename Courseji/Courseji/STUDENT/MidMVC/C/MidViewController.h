@@ -6,11 +6,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "InViewController.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MidViewController : UIViewController
-<UITableViewDelegate, UITableViewDataSource>
+<UITableViewDelegate, UITableViewDataSource, tagPassDelegate>
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSString *startTimeStr;
 @property (nonatomic, strong) NSString *stopTimeStr;
@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *connectStr;
 @property (nonatomic, strong) NSString *shangkeStr;
 @property (nonatomic, strong) NSString *typeStr;
+@property int tempTag;
 @end
 
 NS_ASSUME_NONNULL_END
