@@ -15,18 +15,15 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if([self.reuseIdentifier isEqualToString:@"article2"]) {
         
-        QingjiaViewController *qingjia = [[QingjiaViewController alloc] init];
-        
-        //NSLog(@"str = %@",_namestr);
-        UILabel *illlebel = [[UILabel alloc] init];
-        illlebel.frame = CGRectMake(20, 0, 90, 60);
-        illlebel.text = qingjia.Array[0];
-        illlebel.font = [UIFont systemFontOfSize:20];
-        [self.contentView addSubview:illlebel];
+        _illlabel = [[UILabel alloc] init];
+        _illlabel.frame = CGRectMake(20, 0, 90, 60);
+        //_illlebel.text = qingjia.namestr;
+        _illlabel.font = [UIFont systemFontOfSize:20];
+        [self.contentView addSubview:_illlabel];
         
         UILabel *nameLabel = [[UILabel alloc] init];
         nameLabel.frame = CGRectMake(35, 35, 100, 50);
-        nameLabel.text = @"李明";
+        nameLabel.text = @"xwl";
         nameLabel.textColor = [UIColor grayColor];
         nameLabel.font = [UIFont systemFontOfSize:17];
         [self.contentView addSubview:nameLabel];

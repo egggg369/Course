@@ -12,7 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HistoryTableViewCell : UITableViewCell
 
-@property (nonatomic,retain) NSString *namestr;
+//@property (nonatomic,retain) NSString *namestr;
+@property (nonatomic, strong) UILabel *illlabel;
 
 @end
 

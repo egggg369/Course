@@ -20,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    _namestr = [[NSString alloc] init];
     
     self.view.backgroundColor = [UIColor colorWithRed:229/255.0 green:229/255.0 blue:229/255.0 alpha:1];
     
@@ -153,7 +154,7 @@
     if(tableView.tag == 1) {
         return 4;
     }else {
-        return 5;
+        return 1;
     }
 }
 
@@ -178,6 +179,10 @@
     //HomeTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"home"forIndexPath:indexPath];
     if(tableView.tag == 1 && indexPath.section == 0 && indexPath.row == 0) {
         XinxiTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"article1-1" forIndexPath:indexPath];
+        //[cell.nametextField addTarget:self action:@selector(textFieldDidChange:) forControlEvents:UIControlEventValueChanged];
+        _namestr = cell.nametextField.text;
+        cell.nametextField.tag = 1;
+        cell.nametextField.delegate = self;
         cell.selectionStyle = 0;
         return cell;
     }else if(tableView.tag == 1 && indexPath.section == 0 && indexPath.row == 1){
@@ -269,12 +274,27 @@
         return cell;
     }else {
         HistoryTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"article2" forIndexPath:indexPath];
+        cell.illlabel.text = _namestr;
         cell.selectionStyle = 0;
         return cell;
     }
     
 }
 
+- (void) textFieldDidChange : (UITextField *)theTextField {
+    NSLog(@"nameTextField = %@", theTextField.text);
+    if (theTextField.tag == 1) {
+        _namestr = theTextField.text;
+    }
+    
+}
+
+- (void)textFieldDidEndEditing:(UITextField *)textField {
+    NSLog(@"nameTextField = %@", textField.text);
+    if (textField.tag == 1) {
+        _namestr = textField.text;
+    }
+}
 - (void) leave {
     //QingjiaViewController *qingjia = [[QingjiaViewController alloc] init];
 //    XinxiTableViewCell *xinxicell = [[XinxiTableViewCell alloc] init];
@@ -283,7 +303,11 @@
 //    [self.Array addObject:xinxicell.nametextField.text];
 //    NSLog(@"%@",self.Array[0]);
     
+    
+    NSLog(@"11111= %@", _namestr);
+    
     [_scrollView setContentOffset:CGPointMake(self.view.frame.size.width, 0) animated:YES];
+    [self.tableView2 reloadData];
 }
 
 

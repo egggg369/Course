@@ -10,17 +10,20 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface QingjiaViewController : UIViewController <UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate,UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@interface QingjiaViewController : UIViewController <UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate,UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate>
 @property (nonatomic, strong) UITableView *tableView1;
 @property (nonatomic, strong) UITableView *tableView2;
 @property (nonatomic, strong) UIScrollView *scrollView;
 @property (nonatomic, strong) UISegmentedControl *segment;
 @property (nonatomic,strong) UIImagePickerController *imagePicker;
 @property (nonatomic,strong) UIImageView *imageView;
-@property (nonatomic,retain) NSString *namestr;
+//@property (nonatomic,retain) NSString *namestr;
 @property (nonatomic, strong) NSMutableArray *Array;
 @property (nonatomic, copy) NSArray *titleArr;
 @property (nonatomic, copy) NSArray *placeArr;
+
+@property (nonatomic, copy) NSString *namestr;
+
 @end
 
 NS_ASSUME_NONNULL_END
